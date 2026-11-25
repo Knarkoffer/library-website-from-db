@@ -1,0 +1,56 @@
+id: 783
+title: Library Website From DB
+status: active
+type: web-app
+primary_language: python
+languages:
+  - javascript
+  - python
+tags:
+  - bibliographic-data
+  - book-catalog
+  - ddc
+  - dewey-decimal-classification
+  - isbn
+  - library
+  - libris
+  - marc
+  - personal-library
+  - web-app
+libraries:
+  python:
+    - binascii
+    - collections:Counter
+    - datetime
+    - datetime:date
+    - datetime:timedelta
+    - flask:Flask
+    - flask:redirect
+    - flask:render_template
+    - flask:request
+    - flask:send_from_directory
+    - flask:session
+    - flask:url_for
+    - isbnlib
+    - json
+    - locale
+    - os
+    - pymarc:parse_xml_to_array
+    - random
+    - re
+    - requests
+    - sqlite3
+    - sys
+    - time
+    - typing:Any
+    - typing:Callable
+    - typing:Optional
+    - urllib.parse:urlencode
+    - werkzeug.serving:WSGIRequestHandler
+    - yaml
+    - dataclasses:dataclass
+    - tempfile
+    - unittest
+github:
+  owner: Knarkoffer
+  repo: library-website-from-db

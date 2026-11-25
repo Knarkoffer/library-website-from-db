@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="A page that displays the contents of {{ library_name }}">
+<meta name="keywords" content="Books, Library">
+<meta name="revised" content="2026-07-13">
+<meta name="author" content="Knarkoffer">
+<meta name="robots" content="noindex">
+<meta name="robots" content="nofollow">
+<title>{{ library_name }}</title>
+
+<script type="text/javascript" src="/static/scripts/jquery.min.js"></script>
+
+<link rel="stylesheet" href="/static/styles/uikit.min.css" type="text/css">
+<link rel="stylesheet" href="/static/styles/uikit-rtl.min.css" type="text/css">
+<script>
+if (screen && screen.width > 480) {
+  document.write('<script type="text/javascript" src="\/static\/uikit.min.js"><\/script>');
+}
+</script>
+<link type="text/css" rel="stylesheet" href="/static/mine.css">
+<script type="text/javascript" src="/static/mine.js"></script>
+
+<script>
+
+  var on_mobile = false;
+
+  function strToBool(s)
+  {
+      // will match one and only one of the string 'true','1', or 'on' regardless
+      // of capitalization and regardless off surrounding white-space.
+      //
+      regex=/^\s*(true|1|on)\s*$/i
+
+      return regex.test(s);
+  }
+
+  $(document).ready(function(){
+    var user_platform = "{{request.user_agent}}";
+    console.log("User platform is " + user_platform);
+
+    on_mobile = user_platform.includes("Windows NT") === false && user_platform.includes("Macintosh") === false;
+    console.log("On mobile: " + on_mobile);
+
+    if (on_mobile) {
+      console.log("Hiding columns for mobile layout");
+      //$("#filterBox").focus();
+      $('.th_count, .td_count').hide();
+      $('.th_oclid, .td_oclid').hide();
+      $('.th_ddc, .td_ddc').hide();
+      $('.th_ddcm, .td_ddcm').hide();
+      hide_all_rows()
+    }
+
+    if (strToBool('{{go_to_bottom}}')){
+      $('html,body').animate({scrollTop: document.body.scrollHeight},"fast");
+    }
+
+    // Handles enabling of the ADD button when data is input
+    $("#tbx_isbn,#tbx_librisid").on("keyup", function() {
+      var text_length = $(this).val().length;
+      if (text_length > 0){
+        $("#btn_add_book").attr("disabled", false);
+      } else {
+        $("#btn_add_book").attr("disabled", true);
+      }
+    });
+
+    document.getElementsByTagName("html")[0].style.visibility = "visible";
+
+    // Hides the "Added item"-box
+    setTimeout(function(){
+      document.getElementById('info_box').classList.remove('divVisible');
+      document.getElementById('info_box').classList.add('divHidden');
+    },3000)
+
+    // Mutes the notification box by an AJAX call
+    $.ajax({
+        type: "POST",
+        url:"/mute_notification"
+    });
+
+    if(on_mobile){
+      $("#filterBox").focus();
+    } else {
+      $("#tbx_isbn").focus();
+    }
+
+  });
+
+</script>
+
+
+</head>
+
+<body>
+{% include 'menu.html' %}
+
+<!--<div id="info_box" class="{{ 'divVisible' if session['info_show'] else 'divHidden' }} uk-position-top uk-position-absolute">-->
+<!--<div uk-alert id="info_box" class="divVisible uk-overlay uk-alert-success uk-position-top uk-position-absolute uk-margin-medium-top"  style="width: 25%">-->
+<!--<div uk-alert id="info_box" class="{{ 'divVisible' if session['info_show'] else 'divHidden' }} uk-alert-success uk-position-top uk-overlay uk-margin-medium-top uk-margin-xlarge-left uk-margin-xlarge-right">-->
+<div uk-alert id="info_box" class="{{ 'divVisible' if session['info_show'] else 'divHidden' }}
+{% if session['info_type'] == 'ERROR' %}
+    uk-alert-danger
+{% elif session['info_type'] == 'INFO' %}
+    uk-alert-primary
+{% elif session['info_type'] == 'SUCCESS' %}
+    uk-alert-success
+{% endif %}
+uk-position-top uk-overlay uk-margin-medium-top uk-margin-xlarge-left uk-margin-xlarge-right">
+  <p class="uk-text-center uk-text-middle">{{ session['info_message'] | safe }}</p>
+</div>
+
+<h2>{{ library_name }}</h2>
+
+<div class="uk-margin-small-left">
+    <form class="uk-search uk-search-default">
+        <input id="filterBox" class="uk-search-input" type="search" placeholder="Filter"><p class="uk-article-meta" id="book_counter"> {{booklist|length}} books</p>
+    </form>
+</div>
+<br>
+
+<form id="add_book" name="add_book" action="/add_book" method="POST" accept-charset="UTF-8">
+	<input id="tbx_isbn" name="tbx_isbn" class="uk-form-width-medium uk-input" type="text" value="" placeholder="Add ISBN..." autofocus><br>
+	<input id="tbx_librisid" name="tbx_librisid" class="uk-form-width-medium uk-input" type="text" value="" placeholder="Add Libris ID"><br>
+	<input id="btn_add_book" class="uk-button uk-button-default" type="submit" value="Add" disabled><br>
+</form>
+
+<br>
+<table class="uk-overflow-au">
+  <thead>
+    <tr>
+      <th class="sortable th_count">Number</th>
+      <th class="sortable th_title">Title</th>
+      <th class="sortable th_author">Author</th>
+      <th class="th_isbn">ISBN</th>
+      <th class="th_librisid">Libris ID</th>
+      <th class="th_oclid">OCL WORK ID</th>
+      <th class="sortable th_ddc">DDC</th>
+      <th class="sortable th_ddcm">DDC Master</th>
+      <th class="sortable th_fromlib">Library Origin</th>
+      <th class="sortable th_language">Language</th>
+    </tr>
+  </thead>
+  <tbody id="library_table">
+    {% for book in booklist %}
+    <tr class="item">
+      <td class="td_count sortable">{{book['Number']}}</td>
+      <td class="td_title sortable">{{book['Title']}}</td>
+      <td class="td_author sortable">{{book['Author']}}</td>
+      <td class="td_isbn">{{book['ISBN']}}</td>
+      <td class="td_librisid">{{book['IDLibris']}}</td>
+      <td class="td_oclid">{{book['OCLCWorkID']}}</td><!-- Was IDOCL previously -->
+      <td class="td_ddc sortable" ><div uk-tooltip="title: DDC Explanation; pos: right">{{book['DDC']}}</div></td>
+      <td class="td_ddcm sortable">{{book['DDCMaster']}}</td>
+      <td class="td_fromlib sortable">{{book['LibraryOrigin']}}</td>
+      <td class="td_language sortable">{{book['Language']}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<br>
+<a href="#" uk-totop uk-scroll>TOP</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

@@ -1,0 +1,4002 @@
+{
+    "000": {
+        "en": "Computer science, information & general works",
+        "sv": "Datavetenskap, kunskap & system"
+    },
+    "001": {
+        "en": "Knowledge",
+        "sv": "Kunskap & vetenskap"
+    },
+    "002": {
+        "en": "The book",
+        "sv": "Boken"
+    },
+    "003": {
+        "en": "Systems",
+        "sv": "System"
+    },
+    "004": {
+        "en": "Data processing & computer science",
+        "sv": "Databehandling & datavetenskap"
+    },
+    "005": {
+        "en": "Computer programming, programs & data",
+        "sv": "Datorprogrammering, program & data"
+    },
+    "006": {
+        "en": "Special computer methods",
+        "sv": "Särskilda datametoder"
+    },
+    "007": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "008": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "009": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "010": {
+        "en": "Bibliographies",
+        "sv": "Bibliografier"
+    },
+    "011": {
+        "en": "Bibliographies",
+        "sv": "Bibliografier"
+    },
+    "012": {
+        "en": "Bibliographies of individuals",
+        "sv": "Personbibliografier"
+    },
+    "013": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "014": {
+        "en": "Bibliographies of anonymous & pseudonymous works",
+        "sv": "Bibliografier - anonyma & pseudonyma verk"
+    },
+    "015": {
+        "en": "Bibliographies of works from specific places",
+        "sv": "Bibliografier - särskilda geografiska områden"
+    },
+    "016": {
+        "en": "Bibliographies of works on specific subjects",
+        "sv": "Ämnesbibliografier"
+    },
+    "017": {
+        "en": "General subject catalogs",
+        "sv": "Allmänna ämneskataloger"
+    },
+    "018": {
+        "en": "Catalogs arranged by author, date, etc.",
+        "sv": "Kataloger ordnade efter författare, år etc."
+    },
+    "019": {
+        "en": "Dictionary catalogs",
+        "sv": "Ordbokskataloger"
+    },
+    "020": {
+        "en": "Library & information sciences",
+        "sv": "Biblioteks- & informationsvetenskap"
+    },
+    "021": {
+        "en": "Library relationships",
+        "sv": "Bibliotekens kontakter & samarbete"
+    },
+    "022": {
+        "en": "Administration of physical plant",
+        "sv": "Biblioteksbyggnader & -lokaler"
+    },
+    "023": {
+        "en": "Personnel management",
+        "sv": "Personaladministration"
+    },
+    "024": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "025": {
+        "en": "Library operations",
+        "sv": "Bibliotekens verksamheter"
+    },
+    "026": {
+        "en": "Libraries for specific subjects",
+        "sv": "Specialbibliotek"
+    },
+    "027": {
+        "en": "General libraries",
+        "sv": "Allmänna bibliotek"
+    },
+    "028": {
+        "en": "Reading & use of other information media",
+        "sv": "Läsning & användning av andra medier"
+    },
+    "029": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "030": {
+        "en": "Encyclopedias & books of facts",
+        "sv": "Uppslagsverk & kalendrar"
+    },
+    "031": {
+        "en": "Encyclopedias in American English",
+        "sv": "Uppslagsverk på amerikansk engelska"
+    },
+    "032": {
+        "en": "Encyclopedias in English",
+        "sv": "Uppslagsverk på engelska"
+    },
+    "033": {
+        "en": "Encyclopedias in other Germanic languages",
+        "sv": "Uppslagsverk på övriga germanska språk"
+    },
+    "034": {
+        "en": "Encyclopedias in French, Occitan & Catalan",
+        "sv": "På franska, occitanska & katalanska"
+    },
+    "035": {
+        "en": "Encyclopedias in Italian, Romanian & related languages",
+        "sv": "På italienska, rumänska & besläktade språk"
+    },
+    "036": {
+        "en": "Encyclopedias in Spanish & Portuguese",
+        "sv": "Uppslagsverk på spanska & portugisiska"
+    },
+    "037": {
+        "en": "Encyclopedias in Slavic languages",
+        "sv": "Uppslagsverk på slaviska språk"
+    },
+    "038": {
+        "en": "Encyclopedias in Scandinavian languages",
+        "sv": "Uppslagsverk på skandinaviska språk"
+    },
+    "039": {
+        "en": "Encyclopedias in other languages",
+        "sv": "Uppslagsverk på övriga språk"
+    },
+    "040": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "041": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "042": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "043": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "044": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "045": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "046": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "047": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "048": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "049": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "050": {
+        "en": "Magazines, journals & serials",
+        "sv": "Tidskrifter & seriella publikationer"
+    },
+    "051": {
+        "en": "Serials in American English",
+        "sv": "Seriella publikationer på amerikansk engelska"
+    },
+    "052": {
+        "en": "Serials in English",
+        "sv": "Seriella publikationer på engelska"
+    },
+    "053": {
+        "en": "Serials in other Germanic languages",
+        "sv": "Seriella publikationer på övriga germanska språk"
+    },
+    "054": {
+        "en": "Serials in French, Occitan & Catalan",
+        "sv": "Seriella publikationer på franska, occitanska & katalanska"
+    },
+    "055": {
+        "en": "Serials in Italian, Romanian & related languages",
+        "sv": "På italienska, rumänska & besläktade språk"
+    },
+    "056": {
+        "en": "Serials in Spanish & Portuguese",
+        "sv": "Seriella publikationer på spanska & portugisiska"
+    },
+    "057": {
+        "en": "Serials in Slavic languages",
+        "sv": "Seriella publikationer på slaviska språk"
+    },
+    "058": {
+        "en": "Serials in Scandinavian languages",
+        "sv": "Seriella publikationer på skandinaviska språk"
+    },
+    "059": {
+        "en": "Serials in other languages",
+        "sv": "Seriella publikationer på övriga språk"
+    },
+    "060": {
+        "en": "Associations, organizations & museums",
+        "sv": "Föreningar, organisationer & museer"
+    },
+    "061": {
+        "en": "Organizations in North America",
+        "sv": "Organisationer i Nordamerika"
+    },
+    "062": {
+        "en": "Organizations in British Isles; in England",
+        "sv": "Organisationer i Storbritannien; i England"
+    },
+    "063": {
+        "en": "Organizations in central Europe; in Germany",
+        "sv": "Organisationer i Centraleuropa; i Tyskland"
+    },
+    "064": {
+        "en": "Organizations in France & Monaco",
+        "sv": "Organisationer i Frankrike & Monaco"
+    },
+    "065": {
+        "en": "Organizations in Italy & adjacent islands",
+        "sv": "Organisationer i Italien & på angränsande öar"
+    },
+    "066": {
+        "en": "Organizations in Iberian Peninsula & adjacent islands",
+        "sv": "På Pyreneiska halvön & angränsande öar"
+    },
+    "067": {
+        "en": "Organizations in eastern Europe; in Russia",
+        "sv": "Organisationer i Östeuropa; i Ryssland"
+    },
+    "068": {
+        "en": "Organizations in other geographic areas",
+        "sv": "Organisationer i övriga geografiska områden"
+    },
+    "069": {
+        "en": "Museum science",
+        "sv": "Museivetenskap"
+    },
+    "070": {
+        "en": "News media, journalism & publishing",
+        "sv": "Nyhetsmedia, journalistik & publicering"
+    },
+    "071": {
+        "en": "Newspapers in North America",
+        "sv": "Dagstidningar i Nordamerika"
+    },
+    "072": {
+        "en": "Newspapers in British Isles; in England",
+        "sv": "Dagstidningar i Storbritannien; i England"
+    },
+    "073": {
+        "en": "Newspapers in central Europe; in Germany",
+        "sv": "Dagstidningar i Centraleuropa; i Tyskland"
+    },
+    "074": {
+        "en": "Newspapers in France & Monaco",
+        "sv": "Dagstidningar i Frankrike & Monaco"
+    },
+    "075": {
+        "en": "Newspapers in Italy & adjacent islands",
+        "sv": "Dagstidningar i Italien & på angränsande öar"
+    },
+    "076": {
+        "en": "Newspapers in Iberian Peninsula & adjacent islands",
+        "sv": "På Pyreneiska halvön & angränsande öar"
+    },
+    "077": {
+        "en": "Newspapers in eastern Europe; in Russia",
+        "sv": "Dagstidningar i Östeuropa; i Ryssland"
+    },
+    "078": {
+        "en": "Newspapers in Scandinavia",
+        "sv": "Dagstidningar i Norden"
+    },
+    "079": {
+        "en": "Newspapers in other geographic areas",
+        "sv": "Dagstidningar i övriga geografiska områden"
+    },
+    "080": {
+        "en": "Quotations",
+        "sv": "Allmänna samlingsverk"
+    },
+    "081": {
+        "en": "Collections in American English",
+        "sv": "Samlingsverk på amerikansk engelska"
+    },
+    "082": {
+        "en": "Collections in English",
+        "sv": "Samlingsverk på engelska"
+    },
+    "083": {
+        "en": "Collections in other Germanic languages",
+        "sv": "Samlingsverk på övriga germanska språk"
+    },
+    "084": {
+        "en": "Collections in French, Occitan & Catalan",
+        "sv": "Samlingsverk på franska, occitanska & katalanska"
+    },
+    "085": {
+        "en": "Collections in Italian, Romanian & related languages",
+        "sv": "På italienska, rumänska & besläktade språk"
+    },
+    "086": {
+        "en": "Collections in Spanish & Portuguese",
+        "sv": "Samlingsverk på spanska & portugisiska"
+    },
+    "087": {
+        "en": "Collections in Slavic languages",
+        "sv": "Samlingsverk på slaviska språk"
+    },
+    "088": {
+        "en": "Collections in Scandinavian languages",
+        "sv": "Samlingsverk på skandinaviska språk"
+    },
+    "089": {
+        "en": "Collections in other languages",
+        "sv": "Samlingsverk på övriga språk"
+    },
+    "090": {
+        "en": "Manuscripts & rare books",
+        "sv": "Handskrifter & rara böcker"
+    },
+    "091": {
+        "en": "Manuscripts",
+        "sv": "Handskrifter"
+    },
+    "092": {
+        "en": "Block books",
+        "sv": "Blockböcker"
+    },
+    "093": {
+        "en": "Incunabula",
+        "sv": "Inkunabler"
+    },
+    "094": {
+        "en": "Printed books",
+        "sv": "Tryckta böcker"
+    },
+    "095": {
+        "en": "Books notable for bindings",
+        "sv": "Kända bokband"
+    },
+    "096": {
+        "en": "Books notable for illustrations",
+        "sv": "Böcker kända för sina illustrationer"
+    },
+    "097": {
+        "en": "Books notable for ownership or origin",
+        "sv": "Böcker kända för sitt ägarskap eller ursprung"
+    },
+    "098": {
+        "en": "Prohibited works, forgeries & hoaxes",
+        "sv": "Förbjudna böcker, förfalskningar, etc."
+    },
+    "099": {
+        "en": "Books notable for format",
+        "sv": "Särskilda bokformat"
+    },
+    "100": {
+        "en": "Philosophy & psychology",
+        "sv": "Filosofi & psykologi"
+    },
+    "101": {
+        "en": "Theory of philosophy",
+        "sv": "Filosofins teori"
+    },
+    "102": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "103": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "104": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "105": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "106": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "107": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "108": {
+        "en": "Kinds of persons treatment",
+        "sv": "Särskilda gruppers filosofi"
+    },
+    "109": {
+        "en": "Historical & collected persons treatment",
+        "sv": "Historia & särskilda personer"
+    },
+    "110": {
+        "en": "Metaphysics",
+        "sv": "Metafysik"
+    },
+    "111": {
+        "en": "Ontology",
+        "sv": "Ontologi"
+    },
+    "112": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "113": {
+        "en": "Cosmology",
+        "sv": "Kosmologi"
+    },
+    "114": {
+        "en": "Space",
+        "sv": "Rum"
+    },
+    "115": {
+        "en": "Time",
+        "sv": "Tid"
+    },
+    "116": {
+        "en": "Change",
+        "sv": "Förändring"
+    },
+    "117": {
+        "en": "Structure",
+        "sv": "Struktur"
+    },
+    "118": {
+        "en": "Force & energy",
+        "sv": "Kraft & energi"
+    },
+    "119": {
+        "en": "Number & quantity",
+        "sv": "Tal & mängd"
+    },
+    "120": {
+        "en": "Epistemology, causation & humankind",
+        "sv": "Kunskapsteori, kausalitet & människan"
+    },
+    "121": {
+        "en": "Epistemology",
+        "sv": "Kunskapsteori"
+    },
+    "122": {
+        "en": "Causation",
+        "sv": "Kausalitet"
+    },
+    "123": {
+        "en": "Determinism & indeterminism",
+        "sv": "Determinism & indeterminism"
+    },
+    "124": {
+        "en": "Teleology",
+        "sv": "Teleology"
+    },
+    "125": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "126": {
+        "en": "The self",
+        "sv": "Självet"
+    },
+    "127": {
+        "en": "The unconscious & the subconscious",
+        "sv": "Det omedvetna & det undermedvetna"
+    },
+    "128": {
+        "en": "Humankind",
+        "sv": "Människan"
+    },
+    "129": {
+        "en": "Origin & destiny of individual souls",
+        "sv": "Själens ursprung & öde"
+    },
+    "130": {
+        "en": "Parapsychology & occultism",
+        "sv": "Parapsykologi & ockultism"
+    },
+    "131": {
+        "en": "Parapsychological & occult methods",
+        "sv": "Parapsykologiska & ockulta metoder"
+    },
+    "132": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "133": {
+        "en": "Specific topics in parapsychology & occultism",
+        "sv": "Särskilda ämnen inom parapsykologi & ockultism"
+    },
+    "134": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "135": {
+        "en": "Dreams & mysteries",
+        "sv": "Drömmar & mysterier"
+    },
+    "136": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "137": {
+        "en": "Divinatory graphology",
+        "sv": "Grafologisk spådom"
+    },
+    "138": {
+        "en": "Physiognomy",
+        "sv": "Fysionomik"
+    },
+    "139": {
+        "en": "Phrenology",
+        "sv": "Frenologi"
+    },
+    "140": {
+        "en": "Specific philosophical schools",
+        "sv": "Särskilda filosofiska skolor"
+    },
+    "141": {
+        "en": "Idealism & related systems",
+        "sv": "Idealism & besläktade system"
+    },
+    "142": {
+        "en": "Critical philosophy",
+        "sv": "Kritisk filosofi"
+    },
+    "143": {
+        "en": "Bergsonism & intuitionism",
+        "sv": "Bergsonism & intuitionism"
+    },
+    "144": {
+        "en": "Humanism & related systems",
+        "sv": "Humanism & besläktade system"
+    },
+    "145": {
+        "en": "Sensationalism",
+        "sv": "Sensualism"
+    },
+    "146": {
+        "en": "Naturalism & related systems",
+        "sv": "Naturalism & besläktade system"
+    },
+    "147": {
+        "en": "Pantheism & related systems",
+        "sv": "Panteism & besläktade system"
+    },
+    "148": {
+        "en": "Eclecticism, liberalism & traditionalism",
+        "sv": "Eklekticism, liberalism & traditionalism"
+    },
+    "149": {
+        "en": "Other philosophical systems",
+        "sv": "Övriga filosofiska system"
+    },
+    "150": {
+        "en": "Psychology",
+        "sv": "Psykologi"
+    },
+    "151": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "152": {
+        "en": "Perception, movement, emotions & drives",
+        "sv": "Perception, rörelse, känslor & drifter"
+    },
+    "153": {
+        "en": "Mental processes & intelligence",
+        "sv": "Mentala processer & intelligens"
+    },
+    "154": {
+        "en": "Subconscious & altered states",
+        "sv": "Det undermedvetna & alternativa medvetandetillstånd"
+    },
+    "155": {
+        "en": "Differential & developmental psychology",
+        "sv": "Differentiell psykologi & utvecklingspsykologi"
+    },
+    "156": {
+        "en": "Comparative psychology",
+        "sv": "Jämförande psykologi"
+    },
+    "157": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "158": {
+        "en": "Applied psychology",
+        "sv": "Tillämpad psykologi"
+    },
+    "159": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "160": {
+        "en": "Logic",
+        "sv": "Logik"
+    },
+    "161": {
+        "en": "Induction",
+        "sv": "Induktion"
+    },
+    "162": {
+        "en": "Deduction",
+        "sv": "Deduktion"
+    },
+    "163": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "164": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "165": {
+        "en": "Fallacies & sources of error",
+        "sv": "Felslut"
+    },
+    "166": {
+        "en": "Syllogisms",
+        "sv": "Syllogismer"
+    },
+    "167": {
+        "en": "Hypotheses",
+        "sv": "Hypoteser"
+    },
+    "168": {
+        "en": "Argument & persuasion",
+        "sv": "Argumentation & övertalning"
+    },
+    "169": {
+        "en": "Analogy",
+        "sv": "Analogi"
+    },
+    "170": {
+        "en": "Ethics",
+        "sv": "Etik"
+    },
+    "171": {
+        "en": "Ethical systems",
+        "sv": "Etiska system"
+    },
+    "172": {
+        "en": "Political ethics",
+        "sv": "Politisk etik"
+    },
+    "173": {
+        "en": "Ethics of family relationships",
+        "sv": "Familjeetik"
+    },
+    "174": {
+        "en": "Occupational ethics",
+        "sv": "Yrkesetik"
+    },
+    "175": {
+        "en": "Ethics of recreation & leisure",
+        "sv": "Etik rörande fritid & nöjen"
+    },
+    "176": {
+        "en": "Ethics of sex & reproduction",
+        "sv": "Sexual- & reproduktionsetik"
+    },
+    "177": {
+        "en": "Ethics of social relations",
+        "sv": "Etik i sociala relationer"
+    },
+    "178": {
+        "en": "Ethics of consumption",
+        "sv": "Konsumtionsetik"
+    },
+    "179": {
+        "en": "Other ethical norms",
+        "sv": "Övriga etiska normer"
+    },
+    "180": {
+        "en": "Ancient, medieval & eastern philosophy",
+        "sv": "Antik, medeltida & österländsk filosofi"
+    },
+    "181": {
+        "en": "Eastern philosophy",
+        "sv": "Österländsk filosofi"
+    },
+    "182": {
+        "en": "Pre-Socratic Greek philosophies",
+        "sv": "Grekisk filosofi före Sokrates"
+    },
+    "183": {
+        "en": "Socratic & related philosophies",
+        "sv": "Sokratisk & besläktad filosofi"
+    },
+    "184": {
+        "en": "Platonic philosophy",
+        "sv": "Platonsk filosofi"
+    },
+    "185": {
+        "en": "Aristotelian philosophy",
+        "sv": "Aristotelisk filosofi"
+    },
+    "186": {
+        "en": "Skeptic & Neoplatonic philosophies",
+        "sv": "Skepticism & nyplatonism"
+    },
+    "187": {
+        "en": "Epicurean philosophy",
+        "sv": "Epikurism"
+    },
+    "188": {
+        "en": "Stoic philosophy",
+        "sv": "Stoicism"
+    },
+    "189": {
+        "en": "Medieval western philosophy",
+        "sv": "Medeltidens filosofi"
+    },
+    "190": {
+        "en": "Modern western philosophy",
+        "sv": "Modern västerländsk filosofi"
+    },
+    "191": {
+        "en": "Philosophy of United States & Canada",
+        "sv": "Filosofi i Förenta staterna & Kanada"
+    },
+    "192": {
+        "en": "Philosophy of British Isles",
+        "sv": "Filosofi på Brittiska öarna"
+    },
+    "193": {
+        "en": "Philosophy of Germany & Austria",
+        "sv": "Filosofi i Tyskland & Österrike"
+    },
+    "194": {
+        "en": "Philosophy of France",
+        "sv": "Filosofi i Frankrike"
+    },
+    "195": {
+        "en": "Philosophy of Italy",
+        "sv": "Filosofi i Italien"
+    },
+    "196": {
+        "en": "Philosophy of Spain & Portugal",
+        "sv": "Filosofi i Spanien & Portugal"
+    },
+    "197": {
+        "en": "Philosophy of former Soviet Union",
+        "sv": "Filosofi i tidigare Sovjetunionen"
+    },
+    "198": {
+        "en": "Philosophy of Scandinavia",
+        "sv": "Filosofi i Skandinavien"
+    },
+    "199": {
+        "en": "Philosophy in other geographic areas",
+        "sv": "Filosofi i övriga geografiska områden"
+    },
+    "200": {
+        "en": "Religion",
+        "sv": "Religion"
+    },
+    "201": {
+        "en": "Religious mythology & social theology",
+        "sv": "Religiös mytologi, religion & samhälle"
+    },
+    "202": {
+        "en": "Doctrines",
+        "sv": "Dogmatik"
+    },
+    "203": {
+        "en": "Public worship & other practices",
+        "sv": "Offentlig religionsutövning"
+    },
+    "204": {
+        "en": "Religious experience, life & practice",
+        "sv": "Religiös erfarenhet & livsföring"
+    },
+    "205": {
+        "en": "Religious ethics",
+        "sv": "Religiös etik"
+    },
+    "206": {
+        "en": "Leaders & organization",
+        "sv": "Ledarskap & organisationer"
+    },
+    "207": {
+        "en": "Missions & religious education",
+        "sv": "Mission  & religiös utbildning"
+    },
+    "208": {
+        "en": "Sources",
+        "sv": "Källor"
+    },
+    "209": {
+        "en": "Sects & reform movements",
+        "sv": "Sekter & reformrörelser"
+    },
+    "210": {
+        "en": "Philosophy & theory of religion",
+        "sv": "Religionsfilosofi & -teori"
+    },
+    "211": {
+        "en": "Concepts of God",
+        "sv": "Gudsbegrepp"
+    },
+    "212": {
+        "en": "Existence, knowability & attributes of God",
+        "sv": "Guds existens & egenskaper"
+    },
+    "213": {
+        "en": "Creation",
+        "sv": "Skapelsen"
+    },
+    "214": {
+        "en": "Theodicy",
+        "sv": "Teodicéproblemet"
+    },
+    "215": {
+        "en": "Science & religion",
+        "sv": "Naturvetenskap & religion"
+    },
+    "216": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "217": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "218": {
+        "en": "Humankind",
+        "sv": "Människan"
+    },
+    "219": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "220": {
+        "en": "Bible",
+        "sv": "Bibeln"
+    },
+    "221": {
+        "en": "Old Testament (Tanakh)",
+        "sv": "Gamla Testamentet (Tanakh)"
+    },
+    "222": {
+        "en": "Historical books of Old Testament",
+        "sv": "Gamla Testamentets historiska böcker"
+    },
+    "223": {
+        "en": "Poetic books of Old Testament",
+        "sv": "Gamla Testamentets poetiska böcker"
+    },
+    "224": {
+        "en": "Prophetic books of Old Testament",
+        "sv": "Gamla Testamentets profetiska böcker"
+    },
+    "225": {
+        "en": "New Testament",
+        "sv": "Nya Testamentet"
+    },
+    "226": {
+        "en": "Gospels & Acts",
+        "sv": "Evangelierna & Apostlagärningarna"
+    },
+    "227": {
+        "en": "Epistles",
+        "sv": "Epistlar"
+    },
+    "228": {
+        "en": "Revelation (Apocalypse)",
+        "sv": "Uppenbarelseboken"
+    },
+    "229": {
+        "en": "Apocrypha & pseudepigrapha",
+        "sv": "Apokryfer & pseudepigrafer"
+    },
+    "230": {
+        "en": "Christianity & Christian theology",
+        "sv": "Kristendom & kristen teologi"
+    },
+    "231": {
+        "en": "God",
+        "sv": "Gud"
+    },
+    "232": {
+        "en": "Jesus Christ & his family",
+        "sv": "Jesus & hans familj"
+    },
+    "233": {
+        "en": "Humankind",
+        "sv": "Mänskligheten"
+    },
+    "234": {
+        "en": "Salvation & grace",
+        "sv": "Frälsning & nåd"
+    },
+    "235": {
+        "en": "Spiritual beings",
+        "sv": "Andliga väsen"
+    },
+    "236": {
+        "en": "Eschatology",
+        "sv": "Eskatologi"
+    },
+    "237": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "238": {
+        "en": "Creeds & catechisms",
+        "sv": "Trosartiklar & katekeser"
+    },
+    "239": {
+        "en": "Apologetics & polemics",
+        "sv": "Apologetik & polemik"
+    },
+    "240": {
+        "en": "Christian moral & devotional theology",
+        "sv": "Kristen moral & fromhetsteologi"
+    },
+    "241": {
+        "en": "Christian ethics",
+        "sv": "Kristen etik"
+    },
+    "242": {
+        "en": "Devotional literature",
+        "sv": "Uppbyggelselitteratur"
+    },
+    "243": {
+        "en": "Evangelistic writings for individuals",
+        "sv": "Väckelselitteratur för enskilda"
+    },
+    "244": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "245": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "246": {
+        "en": "Use of art in Christianity",
+        "sv": "Bruk av konst i kristendomen"
+    },
+    "247": {
+        "en": "Church furnishings & articles",
+        "sv": "Kyrklig inredning & utsmyckning"
+    },
+    "248": {
+        "en": "Christian experience, practice & life",
+        "sv": "Kristen erfarenhet & livsföring"
+    },
+    "249": {
+        "en": "Christian observances in family life",
+        "sv": "Kristet familjeliv"
+    },
+    "250": {
+        "en": "Christian orders & local church",
+        "sv": "Den lokala kyrkan & kristna ordnar"
+    },
+    "251": {
+        "en": "Preaching",
+        "sv": "Homiletik"
+    },
+    "252": {
+        "en": "Texts of sermons",
+        "sv": "Predikningar "
+    },
+    "253": {
+        "en": "Pastoral office & work",
+        "sv": "Pastoralteologi"
+    },
+    "254": {
+        "en": "Parish administration",
+        "sv": "Församlingsadministration"
+    },
+    "255": {
+        "en": "Religious congregations & orders",
+        "sv": "Religiösa församlingar & ordnar"
+    },
+    "256": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "257": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "258": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "259": {
+        "en": "Pastoral care of families & kinds of persons",
+        "sv": "Församlings- & själavård"
+    },
+    "260": {
+        "en": "Social & ecclesiastical theology",
+        "sv": "Kristen teologi rörande samhället & kyrkoteologi "
+    },
+    "261": {
+        "en": "Social theology",
+        "sv": "Kyrkan & samhället"
+    },
+    "262": {
+        "en": "Ecclesiology",
+        "sv": "Ecklesiologi"
+    },
+    "263": {
+        "en": "Days, times & places of observance",
+        "sv": "Helgdagar, högtider & helgedomar"
+    },
+    "264": {
+        "en": "Public worship",
+        "sv": "Offentlig gudstjänst"
+    },
+    "265": {
+        "en": "Sacraments, other rites & acts",
+        "sv": "Sakramenten, övriga riter & handlingar"
+    },
+    "266": {
+        "en": "Missions",
+        "sv": "Mission"
+    },
+    "267": {
+        "en": "Associations for religious work",
+        "sv": "Föreningar för kristet arbete"
+    },
+    "268": {
+        "en": "Religious education",
+        "sv": "Undervisning i kristendom"
+    },
+    "269": {
+        "en": "Spiritual renewal",
+        "sv": "Andlig förnyelse"
+    },
+    "270": {
+        "en": "History of Christianity & Christian church",
+        "sv": "Kristendomens historia & kyrkohistoria"
+    },
+    "271": {
+        "en": "Religious orders in church history",
+        "sv": "Religiösa ordnar i kyrkohistorien"
+    },
+    "272": {
+        "en": "Persecutions in church history",
+        "sv": "Förföljelse i kyrkohistorien"
+    },
+    "273": {
+        "en": "Doctrinal controversies & heresies",
+        "sv": "Lärostrider & kätterier"
+    },
+    "274": {
+        "en": "History of Christianity in Europe",
+        "sv": "Kristendomens historia i Europa"
+    },
+    "275": {
+        "en": "History of Christianity in Asia",
+        "sv": "Kristendomens historia i Asien"
+    },
+    "276": {
+        "en": "History of Christianity in Africa",
+        "sv": "Kristendomens historia i Afrika"
+    },
+    "277": {
+        "en": "History of Christianity in North America",
+        "sv": "Kristendomens historia i Nordamerika"
+    },
+    "278": {
+        "en": "History of Christianity in South America",
+        "sv": "Kristendomens historia i Sydamerika"
+    },
+    "279": {
+        "en": "History of Christianity in other areas",
+        "sv": "Kristendomens historia i övriga områden"
+    },
+    "280": {
+        "en": "Christian denominations & sects",
+        "sv": "Kristna trossamfund & sekter"
+    },
+    "281": {
+        "en": "Early church & Eastern churches",
+        "sv": "Fornkyrkan & ortodoxa kyrkor"
+    },
+    "282": {
+        "en": "Roman Catholic Church",
+        "sv": "Romersk-katolska kyrkan"
+    },
+    "283": {
+        "en": "Anglican churches",
+        "sv": "Anglikanska kyrkor"
+    },
+    "284": {
+        "en": "Protestants of Continental origin",
+        "sv": "Protestantiska trossamfund med ursprung i Europa"
+    },
+    "285": {
+        "en": "Presbyterian, Reformed & Congregational",
+        "sv": "Presbyterianer, kongregationalister & reformerta samfund"
+    },
+    "286": {
+        "en": "Baptist, Disciples of Christ & Adventist",
+        "sv": "Baptister, Disciples of Christ & adventister"
+    },
+    "287": {
+        "en": "Methodist & related churches",
+        "sv": "Metodister & besläktade samfund"
+    },
+    "288": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "289": {
+        "en": "Other denominations & sects",
+        "sv": "Övriga trossamfund & sekter"
+    },
+    "290": {
+        "en": "Other religions",
+        "sv": "Övriga religioner"
+    },
+    "291": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "292": {
+        "en": "Greek & Roman religion",
+        "sv": "Grekisk & romersk religion"
+    },
+    "293": {
+        "en": "Germanic religion",
+        "sv": "Germansk religion"
+    },
+    "294": {
+        "en": "Religions of Indic origin",
+        "sv": "Indiska religioner"
+    },
+    "295": {
+        "en": "Zoroastrianism",
+        "sv": "Zoroastrism"
+    },
+    "296": {
+        "en": "Judaism",
+        "sv": "Judendom"
+    },
+    "297": {
+        "en": "Islam, Babism & Bahai Faith",
+        "sv": "Islam, babism & bahai"
+    },
+    "298": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "299": {
+        "en": "Religions not provided for elsewhere",
+        "sv": "Övriga religioner, ej angivna ovan"
+    },
+    "300": {
+        "en": "Social sciences",
+        "sv": "Samhällsvetenskaper"
+    },
+    "301": {
+        "en": "Sociology & anthropology",
+        "sv": "Sociologi & antropologi"
+    },
+    "302": {
+        "en": "Social interaction",
+        "sv": "Social interaktion"
+    },
+    "303": {
+        "en": "Social processes",
+        "sv": "Sociala processer"
+    },
+    "304": {
+        "en": "Factors affecting social behavior",
+        "sv": "Faktorer som påverkar socialt beteende"
+    },
+    "305": {
+        "en": "Social groups",
+        "sv": "Sociala grupper"
+    },
+    "306": {
+        "en": "Culture & institutions",
+        "sv": "Kultur & sociala institutioner"
+    },
+    "307": {
+        "en": "Communities",
+        "sv": "Lokalsamhällen"
+    },
+    "308": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "309": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "310": {
+        "en": "Collections of general statistics",
+        "sv": "Samlingar av allmän statistik"
+    },
+    "311": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "312": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "313": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "314": {
+        "en": "General statistics of Europe",
+        "sv": "Allmän statistik för Europa"
+    },
+    "315": {
+        "en": "General statistics of Asia",
+        "sv": "Allmän statistik för Asien"
+    },
+    "316": {
+        "en": "General statistics of Africa",
+        "sv": "Allmän statistik för Afrika"
+    },
+    "317": {
+        "en": "General statistics of North America",
+        "sv": "Allmän statistik för Nordamerika"
+    },
+    "318": {
+        "en": "General statistics of South America",
+        "sv": "Allmän statistik för Sydamerika"
+    },
+    "319": {
+        "en": "General statistics of other areas",
+        "sv": "Allmän statistik för övriga områden"
+    },
+    "320": {
+        "en": "Political science",
+        "sv": "Statsvetenskap"
+    },
+    "321": {
+        "en": "Systems of governments & states",
+        "sv": "Regeringsformer & statsskick"
+    },
+    "322": {
+        "en": "Relation of state to organized groups",
+        "sv": "Statens förhållande till organiserade grupper"
+    },
+    "323": {
+        "en": "Civil & political rights",
+        "sv": "Medborgerliga & politiska rättigheter"
+    },
+    "324": {
+        "en": "The political process",
+        "sv": "Den politiska processen"
+    },
+    "325": {
+        "en": "International migration & colonization",
+        "sv": "Internationell migration & kolonisation"
+    },
+    "326": {
+        "en": "Slavery & emancipation",
+        "sv": "Slaveri & frigörelse"
+    },
+    "327": {
+        "en": "International relations",
+        "sv": "Internationella relationer"
+    },
+    "328": {
+        "en": "The legislative process",
+        "sv": "Den lagstiftande processen"
+    },
+    "329": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "330": {
+        "en": "Economics",
+        "sv": "Nationalekonomi"
+    },
+    "331": {
+        "en": "Labor economics",
+        "sv": "Arbetsmarknadsekonomi"
+    },
+    "332": {
+        "en": "Financial economics",
+        "sv": "Finansiell ekonomi"
+    },
+    "333": {
+        "en": "Economics of land & energy",
+        "sv": "Mark- & energiresurser"
+    },
+    "334": {
+        "en": "Cooperatives",
+        "sv": "Kooperativ"
+    },
+    "335": {
+        "en": "Socialism & related systems",
+        "sv": "Socialism & relaterade system"
+    },
+    "336": {
+        "en": "Public finance",
+        "sv": "Offentlig ekonomi"
+    },
+    "337": {
+        "en": "International economics",
+        "sv": "Internationell ekonomi"
+    },
+    "338": {
+        "en": "Production",
+        "sv": "Produktion"
+    },
+    "339": {
+        "en": "Macroeconomics & related topics",
+        "sv": "Makroekonomi & relaterade ämnen"
+    },
+    "340": {
+        "en": "Law",
+        "sv": "Juridik"
+    },
+    "341": {
+        "en": "Law of nations",
+        "sv": "Folkrätt & internationell rätt"
+    },
+    "342": {
+        "en": "Constitutional & administrative law",
+        "sv": "Statsrätt & förvaltningsrätt"
+    },
+    "343": {
+        "en": "Military, tax, trade & industrial law",
+        "sv": "Skatterätt, handelsrätt, militärväsen & företag"
+    },
+    "344": {
+        "en": "Labor, social, education & cultural law",
+        "sv": "Arbetsrätt, socialrätt, utbildning & kultur"
+    },
+    "345": {
+        "en": "Criminal law",
+        "sv": "Straffrätt"
+    },
+    "346": {
+        "en": "Private law",
+        "sv": "Civilrätt"
+    },
+    "347": {
+        "en": "Civil procedure & courts",
+        "sv": "Civilprocess & domstolar"
+    },
+    "348": {
+        "en": "Laws, regulations & cases",
+        "sv": "Lagar, föreskrifter & rättsfall"
+    },
+    "349": {
+        "en": "Law of specific jurisdictions & areas",
+        "sv": "Särskilda jurisdiktioner & områden"
+    },
+    "350": {
+        "en": "Public administration & military science",
+        "sv": "Offentlig förvaltning & militärvetenskap"
+    },
+    "351": {
+        "en": "Public administration",
+        "sv": "Offentlig förvaltning"
+    },
+    "352": {
+        "en": "General considerations of public administration",
+        "sv": "Allmänna verk om offentlig förvaltning"
+    },
+    "353": {
+        "en": "Specific fields of public administration",
+        "sv": "Särskilda förvaltningsområden"
+    },
+    "354": {
+        "en": "Administration of economy & environment",
+        "sv": "Administration av offentlig ekonomi & miljö"
+    },
+    "355": {
+        "en": "Military science",
+        "sv": "Militärvetenskap"
+    },
+    "356": {
+        "en": "Infantry forces & warfare",
+        "sv": "Infanteri & krigföring"
+    },
+    "357": {
+        "en": "Mounted forces & warfare",
+        "sv": "Kavalleri & krigföring"
+    },
+    "358": {
+        "en": "Air & other specialized forces",
+        "sv": "Flygvapen & andra specialiserade styrkor"
+    },
+    "359": {
+        "en": "Sea forces & warfare",
+        "sv": "Sjöstridskrafter & krigföring"
+    },
+    "360": {
+        "en": "Social problems & services; associations",
+        "sv": "Sociala problem & tjänster; föreningar"
+    },
+    "361": {
+        "en": "Social problems & social welfare in general",
+        "sv": "Sociala problem & tjänster allmänt"
+    },
+    "362": {
+        "en": "Social welfare problems & services",
+        "sv": "Sociala välfärdsproblem & tjänster"
+    },
+    "363": {
+        "en": "Other social problems & services",
+        "sv": "Övriga sociala problem & tjänster"
+    },
+    "364": {
+        "en": "Criminology",
+        "sv": "Kriminologi"
+    },
+    "365": {
+        "en": "Penal & related institutions",
+        "sv": "Kriminalvård"
+    },
+    "366": {
+        "en": "Associations",
+        "sv": "Sällskap & ordnar"
+    },
+    "367": {
+        "en": "General clubs",
+        "sv": "Allmänna föreningar"
+    },
+    "368": {
+        "en": "Insurance",
+        "sv": "Försäkring"
+    },
+    "369": {
+        "en": "Miscellaneous kinds of associations",
+        "sv": "Diverse föreningar"
+    },
+    "370": {
+        "en": "Education",
+        "sv": "Utbildning"
+    },
+    "371": {
+        "en": "Schools & their activities; special education",
+        "sv": "Skolor & deras verksamhet; specialundervisning"
+    },
+    "372": {
+        "en": "Elementary education",
+        "sv": "Förskola & grundskola"
+    },
+    "373": {
+        "en": "Secondary education",
+        "sv": "Gymnasieskola & motsvarande"
+    },
+    "374": {
+        "en": "Adult education",
+        "sv": "Vuxenutbildning"
+    },
+    "375": {
+        "en": "Curricula",
+        "sv": "Läroplaner"
+    },
+    "376": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "377": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "378": {
+        "en": "Higher education",
+        "sv": "Högre utbildning"
+    },
+    "379": {
+        "en": "Public policy issues in education",
+        "sv": "Utbildningspolitik"
+    },
+    "380": {
+        "en": "Commerce, communications & transportation",
+        "sv": "Handel, kommunikationer & transport"
+    },
+    "381": {
+        "en": "Commerce",
+        "sv": "Handel"
+    },
+    "382": {
+        "en": "International commerce",
+        "sv": "Internationell handel"
+    },
+    "383": {
+        "en": "Postal communication",
+        "sv": "Post"
+    },
+    "384": {
+        "en": "Communications; telecommunication",
+        "sv": "Kommunikationer; telekommunikation"
+    },
+    "385": {
+        "en": "Railroad transportation",
+        "sv": "Järnvägstrafik"
+    },
+    "386": {
+        "en": "Inland waterway & ferry transportation",
+        "sv": "Insjöfart & färjetrafik"
+    },
+    "387": {
+        "en": "Water, air & space transportation",
+        "sv": "Sjöfart, flygtrafik & rymdfart"
+    },
+    "388": {
+        "en": "Transportation; ground transportation",
+        "sv": "Transport; landtransport"
+    },
+    "389": {
+        "en": "Metrology & standardization",
+        "sv": "Metrologi & standardisering"
+    },
+    "390": {
+        "en": "Customs, etiquette & folklore",
+        "sv": "Seder, etikett & folkdiktning"
+    },
+    "391": {
+        "en": "Costume & personal appearance",
+        "sv": "Kläder & utseende"
+    },
+    "392": {
+        "en": "Customs of life cycle & domestic life",
+        "sv": "Seder knutna till livscykeln & hemmet"
+    },
+    "393": {
+        "en": "Death customs",
+        "sv": "Seder knutna till döden"
+    },
+    "394": {
+        "en": "General customs",
+        "sv": "Allmänna seder "
+    },
+    "395": {
+        "en": "Etiquette (Manners)",
+        "sv": "Etikettfrågor"
+    },
+    "396": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "397": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "398": {
+        "en": "Folklore",
+        "sv": "Folkdiktning"
+    },
+    "399": {
+        "en": "Customs of war & diplomacy",
+        "sv": "Seder knutna till krig & diplomati"
+    },
+    "400": {
+        "en": "Language",
+        "sv": "Språk"
+    },
+    "401": {
+        "en": "Philosophy & theory",
+        "sv": "Filosofi & teori"
+    },
+    "402": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "403": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "404": {
+        "en": "Special topics",
+        "sv": "Särskilda ämnen"
+    },
+    "405": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "406": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "407": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "408": {
+        "en": "Kinds of persons treatment",
+        "sv": "Särskilda gruppers språk"
+    },
+    "409": {
+        "en": "Geographic & persons treatment",
+        "sv": "Geografi & särskilda personer"
+    },
+    "410": {
+        "en": "Linguistics",
+        "sv": "Språkvetenskap"
+    },
+    "411": {
+        "en": "Writing systems",
+        "sv": "Skriftsystem"
+    },
+    "412": {
+        "en": "Etymology",
+        "sv": "Etymologi"
+    },
+    "413": {
+        "en": "Dictionaries",
+        "sv": "Lexikon"
+    },
+    "414": {
+        "en": "Phonology & phonetics",
+        "sv": "Fonologi & fonetik"
+    },
+    "415": {
+        "en": "Grammar",
+        "sv": "Grammatik"
+    },
+    "416": {
+        "en": "[Unassigned]",
+        "sv": " [Vakant]"
+    },
+    "417": {
+        "en": "Dialectology & historical linguistics",
+        "sv": "Dialektologi & språkhistoria"
+    },
+    "418": {
+        "en": "Standard usage & applied linguistics",
+        "sv": "Standardspråk & tillämpad språkvetenskap"
+    },
+    "419": {
+        "en": "Sign languages",
+        "sv": "Teckenspråk"
+    },
+    "420": {
+        "en": "English & Old English",
+        "sv": "Engelska & fornengelska"
+    },
+    "421": {
+        "en": "English writing system & phonology",
+        "sv": "Engelska skriftsystem & fonologi"
+    },
+    "422": {
+        "en": "English etymology",
+        "sv": "Engelsk etymologi"
+    },
+    "423": {
+        "en": "English dictionaries",
+        "sv": "Engelska lexikon"
+    },
+    "424": {
+        "en": "[Unassigned]",
+        "sv": " [Vakant]"
+    },
+    "425": {
+        "en": "English grammar",
+        "sv": "Engelsk grammatik"
+    },
+    "426": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "427": {
+        "en": "English language variations",
+        "sv": "Engelsk språkvariation"
+    },
+    "428": {
+        "en": "Standard English usage",
+        "sv": "Engelskt standardspråk"
+    },
+    "429": {
+        "en": "Old English (Anglo-Saxon)",
+        "sv": "Fornengelska (Angolsaxiska)"
+    },
+    "430": {
+        "en": "Germanic languages; German",
+        "sv": "Germanska språk; tyska"
+    },
+    "431": {
+        "en": "German writing systems & phonology",
+        "sv": "Tyska skriftsystem & fonologi"
+    },
+    "432": {
+        "en": "German etymology",
+        "sv": "Tysk etymologi"
+    },
+    "433": {
+        "en": "German dictionaries",
+        "sv": "Tyska lexikon"
+    },
+    "434": {
+        "en": "[Unassigned]",
+        "sv": " [Vakant]"
+    },
+    "435": {
+        "en": "German grammar",
+        "sv": "Tysk grammatik"
+    },
+    "436": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "437": {
+        "en": "German language variations",
+        "sv": "Tysk språkvariation"
+    },
+    "438": {
+        "en": "Standard German usage",
+        "sv": "Tyskt standardspråk"
+    },
+    "439": {
+        "en": "Other Germanic languages",
+        "sv": "Övriga germanska språk"
+    },
+    "440": {
+        "en": "Romance languages; French",
+        "sv": "Romanska språk; franska"
+    },
+    "441": {
+        "en": "French writing systems & phonology",
+        "sv": "Franska skriftsystem & fonologi"
+    },
+    "442": {
+        "en": "French etymology",
+        "sv": "Fransk etymologi"
+    },
+    "443": {
+        "en": "French dictionaries",
+        "sv": "Franska lexikon"
+    },
+    "444": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "445": {
+        "en": "French grammar",
+        "sv": "Fransk grammatik"
+    },
+    "446": {
+        "en": "[Unassigned]",
+        "sv": " [Vakant]"
+    },
+    "447": {
+        "en": "French language variations",
+        "sv": "Fransk språkvariation"
+    },
+    "448": {
+        "en": "Standard French usage",
+        "sv": "Franskt standardspråk"
+    },
+    "449": {
+        "en": "Occitan & Catalan",
+        "sv": "Occitanska & katalanska"
+    },
+    "450": {
+        "en": "Italian, Romanian & related languages",
+        "sv": "Italienska, rumänska & besläktade språk"
+    },
+    "451": {
+        "en": "Italian writing systems & phonology",
+        "sv": "Italienska skriftsystem & fonologi"
+    },
+    "452": {
+        "en": "Italian etymology",
+        "sv": "Italiensk etymologi"
+    },
+    "453": {
+        "en": "Italian dictionaries",
+        "sv": "Italienska lexikon"
+    },
+    "454": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "455": {
+        "en": "Italian grammar",
+        "sv": "Italiensk grammatik"
+    },
+    "456": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "457": {
+        "en": "Italian language variations",
+        "sv": "Italiensk språkvariation"
+    },
+    "458": {
+        "en": "Standard Italian usage",
+        "sv": "Italienskt standardspråk"
+    },
+    "459": {
+        "en": "Romanian & related languages",
+        "sv": "Rumänska & besläktade språk"
+    },
+    "460": {
+        "en": "Spanish & Portuguese languages",
+        "sv": "Spanska & portugisiska"
+    },
+    "461": {
+        "en": "Spanish writing systems & phonology",
+        "sv": "Spanska skriftsystem & fonologi"
+    },
+    "462": {
+        "en": "Spanish etymology",
+        "sv": "Spansk etymologi"
+    },
+    "463": {
+        "en": "Spanish dictionaries",
+        "sv": "Spanska lexikon"
+    },
+    "464": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "465": {
+        "en": "Spanish grammar",
+        "sv": "Spansk grammatik"
+    },
+    "466": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "467": {
+        "en": "Spanish language variations",
+        "sv": "Spansk språkvariation"
+    },
+    "468": {
+        "en": "Standard Spanish usage",
+        "sv": "Spanskt standardspråk"
+    },
+    "469": {
+        "en": "Portuguese",
+        "sv": "Portugisiska"
+    },
+    "470": {
+        "en": "Italic languages; Latin",
+        "sv": "Italiska språk; latin"
+    },
+    "471": {
+        "en": "Classical Latin writing & phonology",
+        "sv": "Klassiskt latinska skriftsystem & fonologi"
+    },
+    "472": {
+        "en": "Classical Latin etymology",
+        "sv": "Klassisk latinsk etymologi"
+    },
+    "473": {
+        "en": "Classical Latin dictionaries",
+        "sv": "Klassiskt latinska lexikon"
+    },
+    "474": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "475": {
+        "en": "Classical Latin grammar",
+        "sv": "Klassisk latinsk grammatik"
+    },
+    "476": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "477": {
+        "en": "Old, postclassical & Vulgar Latin",
+        "sv": "Latin före & efter den klassiska perioden"
+    },
+    "478": {
+        "en": "Classical Latin usage",
+        "sv": "Klassiskt latinskt språkbruk"
+    },
+    "479": {
+        "en": "Other Italic languages",
+        "sv": "Övriga italiska språk"
+    },
+    "480": {
+        "en": "Hellenic languages; classical Greek",
+        "sv": "Grekiska språk; klassisk grekiska"
+    },
+    "481": {
+        "en": "Classical Greek writing & phonology",
+        "sv": "Klassiska grekiska skriftsystem & fonologi"
+    },
+    "482": {
+        "en": "Classical Greek etymology",
+        "sv": "Klassisk grekisk etymologi"
+    },
+    "483": {
+        "en": "Classical Greek dictionaries",
+        "sv": "Klassiskt grekiska lexikon"
+    },
+    "484": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "485": {
+        "en": "Classical Greek grammar",
+        "sv": "Klassisk grekisk grammatik"
+    },
+    "486": {
+        "en": "[Unassigned]",
+        "sv": " [Vakant]"
+    },
+    "487": {
+        "en": "Preclassical & postclassical Greek",
+        "sv": "Grekiska före & efter den klassiska perioden"
+    },
+    "488": {
+        "en": "Classical Greek usage",
+        "sv": "Klassiskt grekiskt språkbruk"
+    },
+    "489": {
+        "en": "Other Hellenic languages",
+        "sv": "Övriga grekiska språk"
+    },
+    "490": {
+        "en": "Other languages",
+        "sv": "Övriga språk"
+    },
+    "491": {
+        "en": "East Indo-European & Celtic languages",
+        "sv": "Östindoeuropeiska & keltiska språk"
+    },
+    "492": {
+        "en": "Afro-Asiatic languages; Semitic languages",
+        "sv": "Afroasiatiska språk; semitiska språk"
+    },
+    "493": {
+        "en": "Non-Semitic Afro-Asiatic languages",
+        "sv": "Icke-semitiska afroasiatiska språk"
+    },
+    "494": {
+        "en": "Altaic, Uralic, Hyperborean & Dravidian",
+        "sv": "Altaiska, uraliska, paleoasiatiska & dravidiska "
+    },
+    "495": {
+        "en": "Languages of East & Southeast Asia",
+        "sv": "Östasiatiska & sydöstasiatiska språk"
+    },
+    "496": {
+        "en": "African languages",
+        "sv": "Afrikanska språk"
+    },
+    "497": {
+        "en": "North American native languages",
+        "sv": "Nordamerikanska indianers språk"
+    },
+    "498": {
+        "en": "South American native languages",
+        "sv": "Sydamerikanska indianers språk"
+    },
+    "499": {
+        "en": "Austronesian & other languages",
+        "sv": "Austronesiska språk & övriga språk"
+    },
+    "500": {
+        "en": "Natural sciences & mathematics",
+        "sv": "Naturvetenskap & matematik"
+    },
+    "501": {
+        "en": "Philosophy & theory",
+        "sv": "Filosofi & teori"
+    },
+    "502": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "503": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "504": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "505": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "506": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "507": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "508": {
+        "en": "Natural history",
+        "sv": "Naturhistoria"
+    },
+    "509": {
+        "en": "Historical, geographic & persons treatment",
+        "sv": "Historia, geografi & särskilda personer"
+    },
+    "510": {
+        "en": "Mathematics",
+        "sv": "Matematik"
+    },
+    "511": {
+        "en": "General principles of mathematics",
+        "sv": "Matematikens allmänna principer"
+    },
+    "512": {
+        "en": "Algebra",
+        "sv": "Algebra"
+    },
+    "513": {
+        "en": "Arithmetic",
+        "sv": "Aritmetik"
+    },
+    "514": {
+        "en": "Topology",
+        "sv": "Topologi"
+    },
+    "515": {
+        "en": "Analysis",
+        "sv": "Analys"
+    },
+    "516": {
+        "en": "Geometry",
+        "sv": "Geometri"
+    },
+    "517": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "518": {
+        "en": "Numerical analysis",
+        "sv": "Numerisk analys"
+    },
+    "519": {
+        "en": "Probabilities & applied mathematics",
+        "sv": "Sannolikhetslära & tillämpad matematik"
+    },
+    "520": {
+        "en": "Astronomy & allied sciences",
+        "sv": "Astronomi & hithörande vetenskaper"
+    },
+    "521": {
+        "en": "Celestial mechanics",
+        "sv": "Celest mekanik"
+    },
+    "522": {
+        "en": "Techniques, equipment & materials",
+        "sv": "Tekniker, utrustning & material"
+    },
+    "523": {
+        "en": "Specific celestial bodies & phenomena",
+        "sv": "Särskilda himlakroppar & fenomen"
+    },
+    "524": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "525": {
+        "en": "Earth (Astronomical geography)",
+        "sv": "Jorden (astronomisk geografi)"
+    },
+    "526": {
+        "en": "Mathematical geography",
+        "sv": "Matematisk geografi"
+    },
+    "527": {
+        "en": "Celestial navigation",
+        "sv": "Astronomisk navigation"
+    },
+    "528": {
+        "en": "Ephemerides",
+        "sv": "Astronomiska tabeller"
+    },
+    "529": {
+        "en": "Chronology",
+        "sv": "Kronologi"
+    },
+    "530": {
+        "en": "Physics",
+        "sv": "Fysik"
+    },
+    "531": {
+        "en": "Classical mechanics; solid mechanics",
+        "sv": "Klassisk mekanik; solidmekanik"
+    },
+    "532": {
+        "en": "Fluid mechanics; liquid mechanics",
+        "sv": "Fluidmekanik; hydromekanik"
+    },
+    "533": {
+        "en": "Gas mechanics",
+        "sv": "Gasers mekanik"
+    },
+    "534": {
+        "en": "Sound & related vibrations",
+        "sv": "Ljud & liknande svängningar"
+    },
+    "535": {
+        "en": "Light & infrared & ultraviolet phenomena",
+        "sv": "Ljus & infraröda & ultravioletta fenomen"
+    },
+    "536": {
+        "en": "Heat",
+        "sv": "Värme"
+    },
+    "537": {
+        "en": "Electricity & electronics",
+        "sv": "Elektricitet & elektronik"
+    },
+    "538": {
+        "en": "Magnetism",
+        "sv": "Magnetism"
+    },
+    "539": {
+        "en": "Modern physics",
+        "sv": "Modern fysik"
+    },
+    "540": {
+        "en": "Chemistry & allied sciences",
+        "sv": "Kemi & hithörande vetenskaper"
+    },
+    "541": {
+        "en": "Physical chemistry",
+        "sv": "Fysikalisk kemi"
+    },
+    "542": {
+        "en": "Techniques, equipment & materials",
+        "sv": "Tekniker, utrustning & material"
+    },
+    "543": {
+        "en": "Analytical chemistry",
+        "sv": "Analytisk kemi"
+    },
+    "544": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "545": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "546": {
+        "en": "Inorganic chemistry",
+        "sv": "Oorganisk kemi"
+    },
+    "547": {
+        "en": "Organic chemistry",
+        "sv": "Organisk kemi"
+    },
+    "548": {
+        "en": "Crystallography",
+        "sv": "Kristallografi"
+    },
+    "549": {
+        "en": "Mineralogy",
+        "sv": "Mineralogi"
+    },
+    "550": {
+        "en": "Earth sciences",
+        "sv": "Geovetenskaper"
+    },
+    "551": {
+        "en": "Geology, hydrology & meteorology",
+        "sv": "Geologi, hydrologi & meteorologi"
+    },
+    "552": {
+        "en": "Petrology",
+        "sv": "Petrologi"
+    },
+    "553": {
+        "en": "Economic geology",
+        "sv": "Ekonomisk geologi"
+    },
+    "554": {
+        "en": "Earth sciences of Europe",
+        "sv": "Geovetenskaper: Europa"
+    },
+    "555": {
+        "en": "Earth sciences of Asia",
+        "sv": "Geovetenskaper: Asien"
+    },
+    "556": {
+        "en": "Earth sciences of Africa",
+        "sv": "Geovetenskaper: Afrika"
+    },
+    "557": {
+        "en": "Earth sciences of North America",
+        "sv": "Geovetenskaper: Nordamerika"
+    },
+    "558": {
+        "en": "Earth sciences of South America",
+        "sv": "Geovetenskaper: Sydamerika"
+    },
+    "559": {
+        "en": "Earth sciences of other areas",
+        "sv": "Geovetenskaper: övriga områden"
+    },
+    "560": {
+        "en": "Paleontology; paleozoology",
+        "sv": "Paleontologi; paleozoologi"
+    },
+    "561": {
+        "en": "Paleobotany; fossil microorganisms",
+        "sv": "Paleobotanik; fossila mikroorganismer"
+    },
+    "562": {
+        "en": "Fossil invertebrates",
+        "sv": "Fossila ryggradslösa djur"
+    },
+    "563": {
+        "en": "Fossil marine & seashore invertebrates",
+        "sv": "Fossila ryggradslösa djur i havet & på stranden"
+    },
+    "564": {
+        "en": "Fossil mollusks & molluscoids",
+        "sv": "Fossila blötdjur & blötdjursliknande djur"
+    },
+    "565": {
+        "en": "Fossil arthropods",
+        "sv": "Fossila leddjur"
+    },
+    "566": {
+        "en": "Fossil chordates",
+        "sv": "Fossila ryggsträngsdjur"
+    },
+    "567": {
+        "en": "Fossil cold-blooded vertebrates; fossil fishes",
+        "sv": "Fossila växelvarma ryggradsdjur; fossila fiskar"
+    },
+    "568": {
+        "en": "Fossil birds",
+        "sv": "Fossila fåglar"
+    },
+    "569": {
+        "en": "Fossil mammals",
+        "sv": "Fossila däggdjur"
+    },
+    "570": {
+        "en": "Life sciences; biology",
+        "sv": "Biovetenskaper; biologi"
+    },
+    "571": {
+        "en": "Physiology & related subjects",
+        "sv": "Fysiologi & liknande ämnen"
+    },
+    "572": {
+        "en": "Biochemistry",
+        "sv": "Biokemi"
+    },
+    "573": {
+        "en": "Specific physiological systems in animals",
+        "sv": "Särskilda organsystem hos djur"
+    },
+    "574": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "575": {
+        "en": "Specific parts of & systems in plants",
+        "sv": "Särskilda växtdelar & system hos växter"
+    },
+    "576": {
+        "en": "Genetics & evolution",
+        "sv": "Genetik & utvecklingslära"
+    },
+    "577": {
+        "en": "Ecology",
+        "sv": "Ekologi"
+    },
+    "578": {
+        "en": "Natural history of organisms",
+        "sv": "Organismers naturhistoria"
+    },
+    "579": {
+        "en": "Microorganisms, fungi & algae",
+        "sv": "Mikroorganismer, svampar & alger"
+    },
+    "580": {
+        "en": "Plants (Botany)",
+        "sv": "Växter (botanik)"
+    },
+    "581": {
+        "en": "Specific topics in natural history",
+        "sv": "Särskilda ämnen i naturhistoria"
+    },
+    "582": {
+        "en": "Plants noted for characteristics & flowers",
+        "sv": "Växter med särskilda karakteristika & blomning"
+    },
+    "583": {
+        "en": "Dicotyledons",
+        "sv": "Tvåhjärtbladiga växter"
+    },
+    "584": {
+        "en": "Monocotyledons",
+        "sv": "Enhjärtbladiga växter"
+    },
+    "585": {
+        "en": "Gymnosperms; conifers",
+        "sv": "Nakenfröiga växter; barrväxter"
+    },
+    "586": {
+        "en": "Seedless plants",
+        "sv": "Kryptogamer"
+    },
+    "587": {
+        "en": "Vascular seedless plants",
+        "sv": "Ormbunksartade växter"
+    },
+    "588": {
+        "en": "Bryophytes",
+        "sv": "Mossor"
+    },
+    "589": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "590": {
+        "en": "Animals (Zoology)",
+        "sv": "Djur (zoologi)"
+    },
+    "591": {
+        "en": "Specific topics in natural history",
+        "sv": "Särskilda ämnen i naturhistoria"
+    },
+    "592": {
+        "en": "Invertebrates",
+        "sv": "Ryggradslösa djur"
+    },
+    "593": {
+        "en": "Marine & seashore invertebrates",
+        "sv": "Ryggradslösa djur i havet & på stranden"
+    },
+    "594": {
+        "en": "Mollusks & molluscoids",
+        "sv": "Blötdjur & blötdjursliknande djur"
+    },
+    "595": {
+        "en": "Arthropods",
+        "sv": "Leddjur"
+    },
+    "596": {
+        "en": "Chordates",
+        "sv": "Ryggsträngsdjur"
+    },
+    "597": {
+        "en": "Cold-blooded vertebrates; fishes",
+        "sv": "Växelvarma ryggsträngsdjur; fiskar"
+    },
+    "598": {
+        "en": "Birds",
+        "sv": "Fåglar"
+    },
+    "599": {
+        "en": "Mammals",
+        "sv": "Däggdjur"
+    },
+    "600": {
+        "en": "Technology",
+        "sv": "Teknik"
+    },
+    "601": {
+        "en": "Philosophy & theory",
+        "sv": "Filosofi & teori"
+    },
+    "602": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "603": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "604": {
+        "en": "Special topics",
+        "sv": "Särskilda ämnen"
+    },
+    "605": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "606": {
+        "en": "Organizations",
+        "sv": "Organisationer"
+    },
+    "607": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "608": {
+        "en": "Inventions & patents",
+        "sv": "Uppfinningar & patent"
+    },
+    "609": {
+        "en": "Historical, geographic & persons treatment",
+        "sv": "Historia, geografi & särskilda personer"
+    },
+    "610": {
+        "en": "Medicine & health",
+        "sv": "Medicin & hälsa"
+    },
+    "611": {
+        "en": "Human anatomy, cytology & histology",
+        "sv": "Människans anatomi, cytologi & histologi"
+    },
+    "612": {
+        "en": "Human physiology",
+        "sv": "Människans fysiologi"
+    },
+    "613": {
+        "en": "Personal health & safety",
+        "sv": "Hälsovård & friskvård"
+    },
+    "614": {
+        "en": "Incidence & prevention of disease",
+        "sv": "Sjukdomsförekomst & förebyggande medicin"
+    },
+    "615": {
+        "en": "Pharmacology & therapeutics",
+        "sv": "Farmakologi & behandlingsmetoder"
+    },
+    "616": {
+        "en": "Diseases",
+        "sv": "Sjukdomar"
+    },
+    "617": {
+        "en": "Surgery & related medical specialties",
+        "sv": "Kirurgi & angränsande medicinska specialiteter"
+    },
+    "618": {
+        "en": "Gynecology, obstetrics, pediatrics & geriatrics",
+        "sv": "Gynekologi, obstetrik, pediatrik & geriatrik"
+    },
+    "619": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "620": {
+        "en": "Engineering & allied operations",
+        "sv": "Ingenjörsvetenskap & angränsande fackområden"
+    },
+    "621": {
+        "en": "Applied physics",
+        "sv": "Tillämpad fysik"
+    },
+    "622": {
+        "en": "Mining & related operations",
+        "sv": "Gruvhantering & angränsande verksamheter"
+    },
+    "623": {
+        "en": "Military & nautical engineering",
+        "sv": "Militärteknik & skeppsteknik"
+    },
+    "624": {
+        "en": "Civil engineering",
+        "sv": "Anläggnings- & konstruktionsteknik"
+    },
+    "625": {
+        "en": "Engineering of railroads & roads",
+        "sv": "Järnvägsteknik & vägbyggnad"
+    },
+    "626": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "627": {
+        "en": "Hydraulic engineering",
+        "sv": "Vattenbyggnad"
+    },
+    "628": {
+        "en": "Sanitary & municipal engineering",
+        "sv": "Teknisk hygien & kommunalteknik"
+    },
+    "629": {
+        "en": "Other branches of engineering",
+        "sv": "Övriga grenar av ingenjörsvetenskap"
+    },
+    "630": {
+        "en": "Agriculture & related technologies",
+        "sv": "Lantbruk & angränsande verksamheter"
+    },
+    "631": {
+        "en": "Techniques, equipment & materials",
+        "sv": "Tekniker, utrustning & material"
+    },
+    "632": {
+        "en": "Plant injuries, diseases & pests",
+        "sv": "Växtskador, växtsjukdomar & skadedjursangrepp"
+    },
+    "633": {
+        "en": "Field & plantation crops",
+        "sv": "Grödor"
+    },
+    "634": {
+        "en": "Orchards, fruits & forestry",
+        "sv": "Fruktträdgårdar, frukt & skogsbruk"
+    },
+    "635": {
+        "en": "Garden crops (Horticulture)",
+        "sv": "Trädgårdsväxter (Hortikultur)"
+    },
+    "636": {
+        "en": "Animal husbandry",
+        "sv": "Husdjursskötsel"
+    },
+    "637": {
+        "en": "Processing dairy & related products",
+        "sv": "Mejerihantering & angränsande verksamheter"
+    },
+    "638": {
+        "en": "Insect culture",
+        "sv": "Insektsodling"
+    },
+    "639": {
+        "en": "Hunting, fishing & conservation",
+        "sv": "Jakt, fiske & naturskydd"
+    },
+    "640": {
+        "en": "Home & family management",
+        "sv": "Hem & hushåll"
+    },
+    "641": {
+        "en": "Food & drink",
+        "sv": "Mat & dryck"
+    },
+    "642": {
+        "en": "Meals & table service",
+        "sv": "Måltider & servering"
+    },
+    "643": {
+        "en": "Housing & household equipment",
+        "sv": "Bostäder & hushållsutrustning"
+    },
+    "644": {
+        "en": "Household utilities",
+        "sv": "Värme, belysning, ventilation & vatten"
+    },
+    "645": {
+        "en": "Household furnishings",
+        "sv": "Heminredning"
+    },
+    "646": {
+        "en": "Sewing, clothing & personal living",
+        "sv": "Sömnad, kläder & privatliv"
+    },
+    "647": {
+        "en": "Management of public households",
+        "sv": "Institutionshushåll"
+    },
+    "648": {
+        "en": "Housekeeping",
+        "sv": "Hushållsskötsel"
+    },
+    "649": {
+        "en": "Child rearing & home care of persons",
+        "sv": "Barnuppfostran & hemvård"
+    },
+    "650": {
+        "en": "Management & auxiliary services",
+        "sv": "Administration och företagsledning"
+    },
+    "651": {
+        "en": "Office services",
+        "sv": "Kontorsteknik"
+    },
+    "652": {
+        "en": "Processes of written communication",
+        "sv": "Handskrivning, tangentbordsteknik m.m."
+    },
+    "653": {
+        "en": "Shorthand",
+        "sv": "Stenografi"
+    },
+    "654": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "655": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "656": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "657": {
+        "en": "Accounting",
+        "sv": "Redovisning"
+    },
+    "658": {
+        "en": "General management",
+        "sv": "Företagsledning &  företagsekonomi"
+    },
+    "659": {
+        "en": "Advertising & public relations",
+        "sv": "Reklam & PR"
+    },
+    "660": {
+        "en": "Chemical engineering",
+        "sv": "Kemisk teknik"
+    },
+    "661": {
+        "en": "Industrial chemicals",
+        "sv": "Industrikemikalier"
+    },
+    "662": {
+        "en": "Explosives, fuels & related products",
+        "sv": "Sprängämnen, bränslen & liknande  produkter"
+    },
+    "663": {
+        "en": "Beverage technology",
+        "sv": "Dryckestillverkning"
+    },
+    "664": {
+        "en": "Food technology",
+        "sv": "Livsmedelsteknik"
+    },
+    "665": {
+        "en": "Industrial oils, fats, waxes & gases",
+        "sv": "Oljor, fetter, vaxer & gaser"
+    },
+    "666": {
+        "en": "Ceramic & allied technologies",
+        "sv": "Keramiska & liknande tekniker"
+    },
+    "667": {
+        "en": "Cleaning, color & coating technologies",
+        "sv": "Rengörings-, färg- & ytbeläggningstekniker"
+    },
+    "668": {
+        "en": "Technology of other organic products",
+        "sv": "Övriga organiska produkters teknik"
+    },
+    "669": {
+        "en": "Metallurgy",
+        "sv": "Metallurgi"
+    },
+    "670": {
+        "en": "Manufacturing",
+        "sv": "Industriell tillverkning"
+    },
+    "671": {
+        "en": "Metalworking & primary metal products",
+        "sv": "Metallbearbetning & primära metallprodukter"
+    },
+    "672": {
+        "en": "Iron, steel & other iron alloys",
+        "sv": "Järn, stål & övriga järnlegeringar"
+    },
+    "673": {
+        "en": "Nonferrous metals",
+        "sv": "Icke järnhaltiga metaller"
+    },
+    "674": {
+        "en": "Lumber processing, wood products & cork",
+        "sv": "Virkesframställning, träprodukter & kork"
+    },
+    "675": {
+        "en": "Leather & fur processing",
+        "sv": "Skinn- & pälsberedning"
+    },
+    "676": {
+        "en": "Pulp & paper technology",
+        "sv": "Pappersmassa & pappersteknik"
+    },
+    "677": {
+        "en": "Textiles",
+        "sv": "Textilier"
+    },
+    "678": {
+        "en": "Elastomers & elastomer products",
+        "sv": "Elaster"
+    },
+    "679": {
+        "en": "Other products of specific materials",
+        "sv": "Övriga produkter av särskilda material"
+    },
+    "680": {
+        "en": "Manufacture for specific uses",
+        "sv": "Tillverkning för särskilda ändamål"
+    },
+    "681": {
+        "en": "Precision instruments & other devices",
+        "sv": "Precisionsinstrument & andra apparater"
+    },
+    "682": {
+        "en": "Small forge work (Blacksmithing)",
+        "sv": "Smideshantverk"
+    },
+    "683": {
+        "en": "Hardware & household appliances",
+        "sv": "Järnvaror & hushållsartiklar"
+    },
+    "684": {
+        "en": "Furnishings & home workshops",
+        "sv": "Möbler, inredning & hobbytillverkning"
+    },
+    "685": {
+        "en": "Leather, fur goods & related products",
+        "sv": "Skinn, pälsvaror & liknande produkter"
+    },
+    "686": {
+        "en": "Printing & related activities",
+        "sv": "Tryckeriteknik & angränsande verksamheter"
+    },
+    "687": {
+        "en": "Clothing & accessories",
+        "sv": "Kläder &  accessoarer"
+    },
+    "688": {
+        "en": "Other final products & packaging",
+        "sv": "Övriga produkter & förpackningar"
+    },
+    "689": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "690": {
+        "en": "Buildings",
+        "sv": "Husbyggnad"
+    },
+    "691": {
+        "en": "Building materials",
+        "sv": "Byggnadsmaterial"
+    },
+    "692": {
+        "en": "Auxiliary construction practices",
+        "sv": "Byggnadsprojektering"
+    },
+    "693": {
+        "en": "Specific materials & purposes",
+        "sv": "Särskilda material & ändamål"
+    },
+    "694": {
+        "en": "Wood construction & carpentry",
+        "sv": "Träkonstruktioner & byggnadssnickeri"
+    },
+    "695": {
+        "en": "Roof covering",
+        "sv": "Taktäckning"
+    },
+    "696": {
+        "en": "Utilities",
+        "sv": "Vatten & avlopp"
+    },
+    "697": {
+        "en": "Heating, ventilating & air-conditioning",
+        "sv": "Värme, ventilation & luftkonditionering"
+    },
+    "698": {
+        "en": "Detail finishing",
+        "sv": "Ytskikt"
+    },
+    "699": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "700": {
+        "en": "The arts; fine & decorative arts",
+        "sv": "Konstarterna; konst & konsthantverk"
+    },
+    "701": {
+        "en": "Philosophy of fine & decorative arts",
+        "sv": "Konstteori"
+    },
+    "702": {
+        "en": "Miscellany of fine & decorative arts",
+        "sv": "Blandat"
+    },
+    "703": {
+        "en": "Dictionaries of fine & decorative arts",
+        "sv": "Konstlexikon"
+    },
+    "704": {
+        "en": "Special topics in fine & decorative arts",
+        "sv": "Särskilda ämnen"
+    },
+    "705": {
+        "en": "Serial publications of fine & decorative arts",
+        "sv": "Seriella publikationer"
+    },
+    "706": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "707": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "708": {
+        "en": "Galleries, museums & private collections",
+        "sv": "Gallerier,museer & privata samlingar"
+    },
+    "709": {
+        "en": "Historical, geographic & persons treatment",
+        "sv": "Historia, geografi & särskilda personer"
+    },
+    "710": {
+        "en": "Civic & landscape art",
+        "sv": "Stadsplane- & landskapskonst"
+    },
+    "711": {
+        "en": "Area planning",
+        "sv": "Fysisk planering"
+    },
+    "712": {
+        "en": "Landscape architecture",
+        "sv": "Landskapsarkitektur"
+    },
+    "713": {
+        "en": "Landscape architecture of trafficways",
+        "sv": "Trafikleder"
+    },
+    "714": {
+        "en": "Water features",
+        "sv": "Vatten"
+    },
+    "715": {
+        "en": "Woody plants",
+        "sv": "Träd & buskar"
+    },
+    "716": {
+        "en": "Herbaceous plants",
+        "sv": "Örtväxter"
+    },
+    "717": {
+        "en": "Structures in landscape architecture",
+        "sv": "Byggnader"
+    },
+    "718": {
+        "en": "Landscape design of cemeteries",
+        "sv": "Begravningsplatsers landskapsarkitektur"
+    },
+    "719": {
+        "en": "Natural landscapes",
+        "sv": "Naturlandskap"
+    },
+    "720": {
+        "en": "Architecture",
+        "sv": "Arkitektur"
+    },
+    "721": {
+        "en": "Architectural structure",
+        "sv": "Konstruktion & material"
+    },
+    "722": {
+        "en": "Architecture to ca. 300",
+        "sv": "Arkitektur till ca 300"
+    },
+    "723": {
+        "en": "Architecture from ca. 300 to 1399",
+        "sv": "Arkitektur från ca 300 till 1399"
+    },
+    "724": {
+        "en": "Architecture from 1400",
+        "sv": "Arkitektur från 1400"
+    },
+    "725": {
+        "en": "Public structures",
+        "sv": "Offentliga anläggningar"
+    },
+    "726": {
+        "en": "Buildings for religious purposes",
+        "sv": "Religiösa byggnader"
+    },
+    "727": {
+        "en": "Buildings for education & research",
+        "sv": "Byggnader för utbildning & forskning"
+    },
+    "728": {
+        "en": "Residential & related buildings",
+        "sv": "Bostadshus & liknande byggnader"
+    },
+    "729": {
+        "en": "Design & decoration",
+        "sv": "Formgivning & utsmyckning"
+    },
+    "730": {
+        "en": "Plastic arts; sculpture",
+        "sv": "Skulptur, keramik & smideskonst"
+    },
+    "731": {
+        "en": "Processes, forms & subjects of sculpture",
+        "sv": "Tekniker, form & motiv"
+    },
+    "732": {
+        "en": "Sculpture to ca. 500",
+        "sv": "Skulptur till ca 500"
+    },
+    "733": {
+        "en": "Greek, Etruscan & Roman sculpture",
+        "sv": "Grekisk, etruskisk & romersk skulptur"
+    },
+    "734": {
+        "en": "Sculpture from ca. 500 to 1399",
+        "sv": "Skulptur från ca 500 till 1399 "
+    },
+    "735": {
+        "en": "Sculpture from 1400",
+        "sv": "Skulptur från 1400"
+    },
+    "736": {
+        "en": "Carving & carvings",
+        "sv": "Snideri & snidade föremål"
+    },
+    "737": {
+        "en": "Numismatics & sigillography",
+        "sv": "Numismatik & sigillkunskap"
+    },
+    "738": {
+        "en": "Ceramic arts",
+        "sv": "Keramik"
+    },
+    "739": {
+        "en": "Art metalwork",
+        "sv": "Konsthantverk i metall"
+    },
+    "740": {
+        "en": "Drawing & decorative arts",
+        "sv": "Teckning & konsthantverk"
+    },
+    "741": {
+        "en": "Drawing & drawings",
+        "sv": "Teckning & teckningar"
+    },
+    "742": {
+        "en": "Perspective",
+        "sv": "Perspektiv"
+    },
+    "743": {
+        "en": "Drawing & drawings by subject",
+        "sv": "Teckning & teckningar efter motiv"
+    },
+    "744": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "745": {
+        "en": "Decorative arts",
+        "sv": "Konsthantverk"
+    },
+    "746": {
+        "en": "Textile arts",
+        "sv": "Textilkonst"
+    },
+    "747": {
+        "en": "Interior decoration",
+        "sv": "Heminredning"
+    },
+    "748": {
+        "en": "Glass",
+        "sv": "Glas"
+    },
+    "749": {
+        "en": "Furniture & accessories",
+        "sv": "Möbler & tillbehör"
+    },
+    "750": {
+        "en": "Painting & paintings",
+        "sv": "Måleri"
+    },
+    "751": {
+        "en": "Techniques, equipment, materials & forms",
+        "sv": "Teknik, verktyg, material & form"
+    },
+    "752": {
+        "en": "Color",
+        "sv": "Färg"
+    },
+    "753": {
+        "en": "Symbolism, allegory, mythology & legend",
+        "sv": "Symbolik, allegori, myter & sagor"
+    },
+    "754": {
+        "en": "Genre paintings",
+        "sv": "Genremålningar"
+    },
+    "755": {
+        "en": "Religion",
+        "sv": "Religiöst måleri"
+    },
+    "756": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "757": {
+        "en": "Human figures",
+        "sv": "Porträtt- & figurmåleri"
+    },
+    "758": {
+        "en": "Other subjects",
+        "sv": "Övriga motiv"
+    },
+    "759": {
+        "en": "Historical, geographic & persons treatment",
+        "sv": "Historia, geografi & särskilda personer"
+    },
+    "760": {
+        "en": "Graphic arts; printmaking & prints",
+        "sv": "Grafisk konst"
+    },
+    "761": {
+        "en": "Relief processes (Block printing)",
+        "sv": "Relieftekniker (högtryck)"
+    },
+    "762": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "763": {
+        "en": "Lithographic processes",
+        "sv": "Litografiska tekniker"
+    },
+    "764": {
+        "en": "Chromolithography & serigraphy",
+        "sv": "Färglitografi & serigrafi"
+    },
+    "765": {
+        "en": "Metal engraving",
+        "sv": "Gravyr"
+    },
+    "766": {
+        "en": "Mezzotinting, aquatinting & related processes",
+        "sv": "Mezzotint, akvatint & liknande tekniker"
+    },
+    "767": {
+        "en": "Etching & drypoint",
+        "sv": "Etsning & torrnål"
+    },
+    "768": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "769": {
+        "en": "Prints",
+        "sv": "Grafiska tryck"
+    },
+    "770": {
+        "en": "Photography, photographs & computer art",
+        "sv": "Fotografi & datorkonst"
+    },
+    "771": {
+        "en": "Techniques, equipment & materials",
+        "sv": "Teknik, verktyg & material"
+    },
+    "772": {
+        "en": "Metallic salt processes",
+        "sv": "Metallsalttekniker "
+    },
+    "773": {
+        "en": "Pigment processes of printing",
+        "sv": "Pigmenttryck"
+    },
+    "774": {
+        "en": "Holography",
+        "sv": "Holografi"
+    },
+    "775": {
+        "en": "Digital photography",
+        "sv": "Digitalt fotografi"
+    },
+    "776": {
+        "en": "Computer art (Digital art)",
+        "sv": "Datorkonst"
+    },
+    "777": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "778": {
+        "en": "Fields & kinds of photography",
+        "sv": "Olika områden & typer av fotografi"
+    },
+    "779": {
+        "en": "Photographs",
+        "sv": "Fotografier"
+    },
+    "780": {
+        "en": "Music",
+        "sv": "Musik"
+    },
+    "781": {
+        "en": "General principles & musical forms",
+        "sv": "Allmänna principer & musikformer"
+    },
+    "782": {
+        "en": "Vocal music",
+        "sv": "Vokalmusik"
+    },
+    "783": {
+        "en": "Music for single voices; the voice",
+        "sv": "Musik för en röst; rösten"
+    },
+    "784": {
+        "en": "Instruments & instrumental ensembles",
+        "sv": "Instrument & instumentalensembler"
+    },
+    "785": {
+        "en": "Ensembles with one instrument per part",
+        "sv": "Ensembler med ett instrument per stämma"
+    },
+    "786": {
+        "en": "Keyboard & other instruments",
+        "sv": "Tangentinstrument & övriga instrument"
+    },
+    "787": {
+        "en": "Stringed instruments",
+        "sv": "Stränginstrument"
+    },
+    "788": {
+        "en": "Wind instruments",
+        "sv": "Blåsinstrument"
+    },
+    "789": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "790": {
+        "en": "Recreational & performing arts",
+        "sv": "Idrott, spel & underhållning"
+    },
+    "791": {
+        "en": "Public performances",
+        "sv": "Publika framträdanden"
+    },
+    "792": {
+        "en": "Stage presentations",
+        "sv": "Scenframträdanden"
+    },
+    "793": {
+        "en": "Indoor games & amusements",
+        "sv": "Inomhuslekar & nöjen"
+    },
+    "794": {
+        "en": "Indoor games of skill",
+        "sv": "Skicklighetsspel"
+    },
+    "795": {
+        "en": "Games of chance",
+        "sv": "Hasardspel"
+    },
+    "796": {
+        "en": "Athletic & outdoor sports & games",
+        "sv": "Idrott, sport & friluftsliv"
+    },
+    "797": {
+        "en": "Aquatic & air sports",
+        "sv": "Vatten- & luftsporter"
+    },
+    "798": {
+        "en": "Equestrian sports & animal racing",
+        "sv": "Hästsport & djurkapplöpning"
+    },
+    "799": {
+        "en": "Fishing, hunting & shooting",
+        "sv": "Fiske, jakt & skytte"
+    },
+    "800": {
+        "en": "Literature, rhetoric & criticism",
+        "sv": "Litteratur, retorik & analys"
+    },
+    "801": {
+        "en": "Philosophy & theory",
+        "sv": "Filosofi & teori"
+    },
+    "802": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "803": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "804": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "805": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "806": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "807": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "808": {
+        "en": "Rhetoric & collections of literature",
+        "sv": "Retorik & antologier (samlingar)"
+    },
+    "809": {
+        "en": "History, description & criticism",
+        "sv": "Historia, beskrivning & analys"
+    },
+    "810": {
+        "en": "American literature in English",
+        "sv": "Amerikansk litteratur på engelska"
+    },
+    "811": {
+        "en": "American poetry in English",
+        "sv": "Amerikansk poesi på engelska"
+    },
+    "812": {
+        "en": "American drama in English",
+        "sv": "Amerikansk dramatik på engelska"
+    },
+    "813": {
+        "en": "American fiction in English",
+        "sv": "Amerikanska romaner & noveller på engelska"
+    },
+    "814": {
+        "en": "American essays in English",
+        "sv": "Amerikanska essäer på engelska"
+    },
+    "815": {
+        "en": "American speeches in English",
+        "sv": "Amerikansk tal på engelska"
+    },
+    "816": {
+        "en": "American letters in English",
+        "sv": "Amerikansk brev på engelska"
+    },
+    "817": {
+        "en": "American humor & satire in English",
+        "sv": "Amerikansk humor & satir på engelska"
+    },
+    "818": {
+        "en": "American miscellaneous writings",
+        "sv": "Övrig amerikansk litteratur på engelska"
+    },
+    "819": {
+        "en": "(Optional number)",
+        "sv": "[Alternativt nummer]"
+    },
+    "820": {
+        "en": "English & Old English literatures",
+        "sv": "Engelska & fornengelska litteraturer"
+    },
+    "821": {
+        "en": "English poetry",
+        "sv": "Engelsk poesi"
+    },
+    "822": {
+        "en": "English drama",
+        "sv": "Engelsk dramatik"
+    },
+    "823": {
+        "en": "English fiction",
+        "sv": "Engelska romaner & noveller"
+    },
+    "824": {
+        "en": "English essays",
+        "sv": "Engelska essäer"
+    },
+    "825": {
+        "en": "English speeches",
+        "sv": "Engelska tal"
+    },
+    "826": {
+        "en": "English letters",
+        "sv": "Engelska brev"
+    },
+    "827": {
+        "en": "English humor & satire",
+        "sv": "Engelsk humor & satir"
+    },
+    "828": {
+        "en": "English miscellaneous writings",
+        "sv": "Övrig engelsk litteratur"
+    },
+    "829": {
+        "en": "Old English (Anglo-Saxon)",
+        "sv": "Fornengelsk litteratur (Anglosaxisk)"
+    },
+    "830": {
+        "en": "German & related literatures",
+        "sv": "Tyska & germanska litteraturer"
+    },
+    "831": {
+        "en": "German poetry",
+        "sv": "Tysk poesi"
+    },
+    "832": {
+        "en": "German drama",
+        "sv": "Tysk dramatik"
+    },
+    "833": {
+        "en": "German fiction",
+        "sv": "Tyska romaner & noveller"
+    },
+    "834": {
+        "en": "German essays",
+        "sv": "Tyska essäer"
+    },
+    "835": {
+        "en": "German speeches",
+        "sv": "Tyska tal"
+    },
+    "836": {
+        "en": "German letters",
+        "sv": "Tyska brev"
+    },
+    "837": {
+        "en": "German humor & satire",
+        "sv": "Tysk humor & satir"
+    },
+    "838": {
+        "en": "German miscellaneous writings",
+        "sv": "Övrig tysk litteratur"
+    },
+    "839": {
+        "en": "Other Germanic literatures",
+        "sv": "Övriga germanska litteraturer"
+    },
+    "840": {
+        "en": "French & related literatures",
+        "sv": "Franska & romanska litteraturer"
+    },
+    "841": {
+        "en": "French poetry",
+        "sv": "Fransk poesi"
+    },
+    "842": {
+        "en": "French drama",
+        "sv": "Fransk dramatik"
+    },
+    "843": {
+        "en": "French fiction",
+        "sv": "Franska romaner & noveller"
+    },
+    "844": {
+        "en": "French essays",
+        "sv": "Franska essäer"
+    },
+    "845": {
+        "en": "French speeches",
+        "sv": "Franska tal"
+    },
+    "846": {
+        "en": "French letters",
+        "sv": "Franska brev"
+    },
+    "847": {
+        "en": "French humor & satire",
+        "sv": "Fransk humor & satir"
+    },
+    "848": {
+        "en": "French miscellaneous writings",
+        "sv": "Övrig fransk litteratur"
+    },
+    "849": {
+        "en": "Occitan & Catalan literatures",
+        "sv": "Occitanska & katalanska litteraturer"
+    },
+    "850": {
+        "en": "Italian, Romanian & related literatures",
+        "sv": "Italienska, rumänska & besläktade litteraturer"
+    },
+    "851": {
+        "en": "Italian poetry",
+        "sv": "Italiensk poesi"
+    },
+    "852": {
+        "en": "Italian drama",
+        "sv": "Italiensk dramatik"
+    },
+    "853": {
+        "en": "Italian fiction",
+        "sv": "Italienska romaner & noveller"
+    },
+    "854": {
+        "en": "Italian essays",
+        "sv": "Italienska essäer"
+    },
+    "855": {
+        "en": "Italian speeches",
+        "sv": "Italienska tal"
+    },
+    "856": {
+        "en": "Italian letters",
+        "sv": "Italienska brev"
+    },
+    "857": {
+        "en": "Italian humor & satire",
+        "sv": "Italiensk humor & satir"
+    },
+    "858": {
+        "en": "Italian miscellaneous writings",
+        "sv": "Övrig italiensk litteratur"
+    },
+    "859": {
+        "en": "Romanian & related literatures",
+        "sv": "Rumänska & besläktade litteraturer"
+    },
+    "860": {
+        "en": "Spanish & Portuguese literatures",
+        "sv": "Spanska & portugisiska litteraturer"
+    },
+    "861": {
+        "en": "Spanish poetry",
+        "sv": "Spansk poesi"
+    },
+    "862": {
+        "en": "Spanish drama",
+        "sv": "Spansk dramatik"
+    },
+    "863": {
+        "en": "Spanish fiction",
+        "sv": "Spanska romaner & noveller  "
+    },
+    "864": {
+        "en": "Spanish essays",
+        "sv": "Spanska essäer"
+    },
+    "865": {
+        "en": "Spanish speeches",
+        "sv": "Spanska tal"
+    },
+    "866": {
+        "en": "Spanish letters",
+        "sv": "Spanska brev"
+    },
+    "867": {
+        "en": "Spanish humor & satire",
+        "sv": "Spansk humor & satir"
+    },
+    "868": {
+        "en": "Spanish miscellaneous writings",
+        "sv": "Övrig spansk litteratur"
+    },
+    "869": {
+        "en": "Portuguese literature",
+        "sv": "Portugisisk litteratur"
+    },
+    "870": {
+        "en": "Latin & Italic literatures",
+        "sv": "Latinska & italiska litteraturer"
+    },
+    "871": {
+        "en": "Latin poetry",
+        "sv": "Latinsk poesi"
+    },
+    "872": {
+        "en": "Latin dramatic poetry & drama",
+        "sv": "Latinsk dramatisk poesi & dramatik"
+    },
+    "873": {
+        "en": "Latin epic poetry & fiction",
+        "sv": "Latinsk episk poesi & prosa"
+    },
+    "874": {
+        "en": "Latin lyric poetry",
+        "sv": "Latinsk lyrisk poesi"
+    },
+    "875": {
+        "en": "Latin speeches",
+        "sv": "Latinska tal"
+    },
+    "876": {
+        "en": "Latin letters",
+        "sv": "Latinska brev"
+    },
+    "877": {
+        "en": "Latin humor & satire",
+        "sv": "Latinsk humor & satir"
+    },
+    "878": {
+        "en": "Latin miscellaneous writings",
+        "sv": "Övrig latinsk litteratur"
+    },
+    "879": {
+        "en": "Literatures of other Italic languages",
+        "sv": "Litteraturer på övriga italiska språk"
+    },
+    "880": {
+        "en": "Classical & modern Greek literatures",
+        "sv": "Klassiskt grekiska & nygrekiska litteraturer"
+    },
+    "881": {
+        "en": "Classical Greek poetry",
+        "sv": "Klassisk grekisk poesi"
+    },
+    "882": {
+        "en": "Classical Greek dramatic poetry & drama",
+        "sv": "Klassisk grekisk dramatisk poesi & dramatik"
+    },
+    "883": {
+        "en": "Classical Greek epic poetry & fiction",
+        "sv": "Klassisk grekisk episk poesi & prosa"
+    },
+    "884": {
+        "en": "Classical Greek lyric poetry",
+        "sv": "Klassisk grekisk lyrisk poesi"
+    },
+    "885": {
+        "en": "Classical Greek speeches",
+        "sv": "Klassisk grekiska tal"
+    },
+    "886": {
+        "en": "Classical Greek letters",
+        "sv": "Klassisk grekiska brev"
+    },
+    "887": {
+        "en": "Classical Greek humor & satire",
+        "sv": "Klassisk grekisk humor & satir"
+    },
+    "888": {
+        "en": "Classical Greek miscellaneous writings",
+        "sv": "Övrig litteratur på klassisk grekiska"
+    },
+    "889": {
+        "en": "Modern Greek literature",
+        "sv": "Nygrekisk litteraur"
+    },
+    "890": {
+        "en": "Other literatures",
+        "sv": "Övriga litteraturer"
+    },
+    "891": {
+        "en": "East Indo-European & Celtic literatures",
+        "sv": "Östindoeuropeiska & keltiska litteraturer"
+    },
+    "892": {
+        "en": "Afro-Asiatic literatures; Semitic literatures",
+        "sv": "Afroasiatiska litteraturer; semitiska litteraturer"
+    },
+    "893": {
+        "en": "Non-Semitic Afro-Asiatic literatures",
+        "sv": "Icke-semitiska afroasiatiska litteraturer"
+    },
+    "894": {
+        "en": "Altaic, Uralic, Hyperborean & Dravidian",
+        "sv": "Altaiska, uraliska, paleoasiatiska & dravidiska litteraturer"
+    },
+    "895": {
+        "en": "Literatures of East & Southeast Asia",
+        "sv": "Litteraturer från Öst- och Sydostasien"
+    },
+    "896": {
+        "en": "African literatures",
+        "sv": "Afrikanska litteraturer"
+    },
+    "897": {
+        "en": "North American native literatures",
+        "sv": "Litteraturer på nordamerikanska indianers språk"
+    },
+    "898": {
+        "en": "South American native literatures",
+        "sv": "Litteraturer på sydamerikanska indianers språk"
+    },
+    "899": {
+        "en": "Austronesian & other literatures",
+        "sv": "Austronesiska & övriga litteraturer"
+    },
+    "900": {
+        "en": "History",
+        "sv": "Historia"
+    },
+    "901": {
+        "en": "Philosophy & theory",
+        "sv": "Filosofi & teori"
+    },
+    "902": {
+        "en": "Miscellany",
+        "sv": "Blandat"
+    },
+    "903": {
+        "en": "Dictionaries & encyclopedias",
+        "sv": "Lexikon & uppslagsverk"
+    },
+    "904": {
+        "en": "Collected accounts of events",
+        "sv": "Samlingsverk om händelser"
+    },
+    "905": {
+        "en": "Serial publications",
+        "sv": "Seriella publikationer"
+    },
+    "906": {
+        "en": "Organizations & management",
+        "sv": "Organisationer & administration"
+    },
+    "907": {
+        "en": "Education, research & related topics",
+        "sv": "Utbildning, forskning & relaterade ämnen"
+    },
+    "908": {
+        "en": "Kinds of persons treatment",
+        "sv": "Särskilda gruppers historia"
+    },
+    "909": {
+        "en": "World history",
+        "sv": "Världshistoria"
+    },
+    "910": {
+        "en": "Geography & travel",
+        "sv": "Geografi & resor"
+    },
+    "911": {
+        "en": "Historical geography",
+        "sv": "Historisk geografi"
+    },
+    "912": {
+        "en": "Atlases, maps, charts & plans",
+        "sv": "Atlaser, kartor, tabeller & ritningar"
+    },
+    "913": {
+        "en": "Geography of & travel in ancient world",
+        "sv": "Geografi & resor i gamla världen"
+    },
+    "914": {
+        "en": "Geography of & travel in Europe",
+        "sv": "Geografi & resor i Europa"
+    },
+    "915": {
+        "en": "Geography of & travel in Asia",
+        "sv": "Geografi & resor i Asien"
+    },
+    "916": {
+        "en": "Geography of & travel in Africa",
+        "sv": "Geografi & resor i Afrika"
+    },
+    "917": {
+        "en": "Geography of & travel in North America",
+        "sv": "Geografi & resor i Nordamerika"
+    },
+    "918": {
+        "en": "Geography of & travel in South America",
+        "sv": "Geografi & resor i Sydamerika"
+    },
+    "919": {
+        "en": "Geography of & travel in other areas",
+        "sv": "Geografi & resor i övriga områden"
+    },
+    "920": {
+        "en": "Biography & genealogy",
+        "sv": "Biografi  & genealogi"
+    },
+    "921": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "922": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "923": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "924": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "925": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "926": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "927": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "928": {
+        "en": "(Optional number)",
+        "sv": "(Alternativt nummer)"
+    },
+    "929": {
+        "en": "Genealogy, names & insignia",
+        "sv": "Genealogi, namn & insignier"
+    },
+    "930": {
+        "en": "History of ancient world (to ca. 499)",
+        "sv": "Gamla världens historia (till ca 499)"
+    },
+    "931": {
+        "en": "China to 420",
+        "sv": "Kina till 420"
+    },
+    "932": {
+        "en": "Egypt to 640",
+        "sv": "Egypten till 640"
+    },
+    "933": {
+        "en": "Palestine to 70",
+        "sv": "Palestina till 70"
+    },
+    "934": {
+        "en": "India to 647",
+        "sv": "Indien till 647"
+    },
+    "935": {
+        "en": "Mesopotamia & Iranian Plateau to 637",
+        "sv": "Mesopotamien & iranska högplatån till 637"
+    },
+    "936": {
+        "en": "Europe north & west of Italy to ca. 499",
+        "sv": "Europa norr & väster om Italien till ca 499"
+    },
+    "937": {
+        "en": "Italy & adjacent territories to 476",
+        "sv": "Italien & angränsande områden till 476"
+    },
+    "938": {
+        "en": "Greece to 323",
+        "sv": "Grekland till 323"
+    },
+    "939": {
+        "en": "Other parts of ancient world to ca. 640",
+        "sv": "Övriga delar av gamla världen till ca 640"
+    },
+    "940": {
+        "en": "History of Europe",
+        "sv": "Europas historia"
+    },
+    "941": {
+        "en": "British Isles",
+        "sv": "Brittiska öarna"
+    },
+    "942": {
+        "en": "England & Wales",
+        "sv": "England & Wales"
+    },
+    "943": {
+        "en": "Central Europe; Germany",
+        "sv": "Centraleuropa; Tyskland"
+    },
+    "944": {
+        "en": "France & Monaco",
+        "sv": "Frankrike & Monaco"
+    },
+    "945": {
+        "en": "Italian Peninsula & adjacent islands",
+        "sv": "Italienska halvön & närliggande öar"
+    },
+    "946": {
+        "en": "Iberian Peninsula & adjacent islands",
+        "sv": "Iberiska halvön & närliggande öar"
+    },
+    "947": {
+        "en": "Eastern Europe; Russia",
+        "sv": "Östeuropa; Ryssland"
+    },
+    "948": {
+        "en": "Scandinavia",
+        "sv": "Norden utom Island"
+    },
+    "949": {
+        "en": "Other parts of Europe",
+        "sv": "Övriga delar av Europa"
+    },
+    "950": {
+        "en": "History of Asia",
+        "sv": "Asiens historia"
+    },
+    "951": {
+        "en": "China & adjacent areas",
+        "sv": "Kina & angränsande områden"
+    },
+    "952": {
+        "en": "Japan",
+        "sv": "Japan"
+    },
+    "953": {
+        "en": "Arabian Peninsula & adjacent areas",
+        "sv": "Arabiska halvön & angränsande områden"
+    },
+    "954": {
+        "en": "South Asia; India",
+        "sv": "Främre Indien; Indien"
+    },
+    "955": {
+        "en": "Iran",
+        "sv": "Iran"
+    },
+    "956": {
+        "en": "Middle East (Near East)",
+        "sv": "Mellanöstern"
+    },
+    "957": {
+        "en": "Siberia (Asiatic Russia)",
+        "sv": "Sibirien (asiatiska Ryssland)"
+    },
+    "958": {
+        "en": "Central Asia",
+        "sv": "Centralasien"
+    },
+    "959": {
+        "en": "Southeast Asia",
+        "sv": "Sydostasien"
+    },
+    "960": {
+        "en": "History of Africa",
+        "sv": "Afrikas historia"
+    },
+    "961": {
+        "en": "Tunisia & Libya",
+        "sv": "Tunisien & Libyen"
+    },
+    "962": {
+        "en": "Egypt & Sudan",
+        "sv": "Egypten & Sudan"
+    },
+    "963": {
+        "en": "Ethiopia & Eritrea",
+        "sv": "Etiopien & Eritrea"
+    },
+    "964": {
+        "en": "Northwest African coast & offshore islands",
+        "sv": "Nordvästafrikanska kusten & öarna utanför"
+    },
+    "965": {
+        "en": "Algeria",
+        "sv": "Algeriet"
+    },
+    "966": {
+        "en": "West Africa & offshore islands",
+        "sv": "Västafrika & öarna utanför"
+    },
+    "967": {
+        "en": "Central Africa & offshore islands",
+        "sv": "Centralafrika & öarna utanför"
+    },
+    "968": {
+        "en": "Southern Africa; Republic of South Africa",
+        "sv": "Södra Afrika; Sydafrika"
+    },
+    "969": {
+        "en": "South Indian Ocean islands",
+        "sv": "Södra Indiska oceanens öar"
+    },
+    "970": {
+        "en": "History of North America",
+        "sv": "Nordamerikas historia"
+    },
+    "971": {
+        "en": "Canada",
+        "sv": "Kanada"
+    },
+    "972": {
+        "en": "Middle America; Mexico",
+        "sv": "Mellanamerika; Mexiko"
+    },
+    "973": {
+        "en": "United States",
+        "sv": "Förenta staterna"
+    },
+    "974": {
+        "en": "Northeastern United States",
+        "sv": "Nordöstra staterna"
+    },
+    "975": {
+        "en": "Southeastern United States",
+        "sv": "Sydöstra staterna"
+    },
+    "976": {
+        "en": "South central United States",
+        "sv": "Södra centralstaterna"
+    },
+    "977": {
+        "en": "North central United States",
+        "sv": "Norra centralstaterna"
+    },
+    "978": {
+        "en": "Western United States",
+        "sv": "Västra staterna (Bergsstaterna)"
+    },
+    "979": {
+        "en": "Great Basin & Pacific Slope region",
+        "sv": "Stillahavsstaterna"
+    },
+    "980": {
+        "en": "History of South America",
+        "sv": "Sydamerikas historia"
+    },
+    "981": {
+        "en": "Brazil",
+        "sv": "Brasilien"
+    },
+    "982": {
+        "en": "Argentina",
+        "sv": "Argentina"
+    },
+    "983": {
+        "en": "Chile",
+        "sv": "Chile"
+    },
+    "984": {
+        "en": "Bolivia",
+        "sv": "Bolivia"
+    },
+    "985": {
+        "en": "Peru",
+        "sv": "Peru"
+    },
+    "986": {
+        "en": "Colombia & Ecuador",
+        "sv": "Colombia & Ecuador"
+    },
+    "987": {
+        "en": "Venezuela",
+        "sv": "Venezuela"
+    },
+    "988": {
+        "en": "Guiana",
+        "sv": "Guyana"
+    },
+    "989": {
+        "en": "Paraguay & Uruguay",
+        "sv": "Paraguay & Uruguay"
+    },
+    "990": {
+        "en": "History of other areas",
+        "sv": "Övriga områdens historia"
+    },
+    "991": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "992": {
+        "en": "[Unassigned]",
+        "sv": "[Vakant]"
+    },
+    "993": {
+        "en": "New Zealand",
+        "sv": "Nya Zeeland"
+    },
+    "994": {
+        "en": "Australia",
+        "sv": "Australien"
+    },
+    "995": {
+        "en": "Melanesia; New Guinea",
+        "sv": "Melanesien; Nya Guinea"
+    },
+    "996": {
+        "en": "Other parts of Pacific; Polynesia",
+        "sv": "Övriga delar av Stilla havet; Polynesien"
+    },
+    "997": {
+        "en": "Atlantic Ocean islands",
+        "sv": "Öar i Atlanten"
+    },
+    "998": {
+        "en": "Arctic islands & Antarctica",
+        "sv": "Arktiska öar & Antarktis"
+    },
+    "999": {
+        "en": "Extraterrestrial worlds",
+        "sv": "Utomjordiska världar"
+    }
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="uk-margin-small-left">
+    <ul class="uk-subnav" uk-margin>
+        <li class="{% if request.endpoint == 'render_library' %} uk-active {% endif %}"><a href="/">Library</a></li>
+        <li class="{% if request.url.split('/')[-1] == 'statistics' %} uk-active {% endif %}"><a href="/statistics">Statistics</a></li>
+        <li class="{% if request.url.split('/')[-1] == 'ddc_codes' %} uk-active {% endif %}"><a href="/ddc_codes">DDC Breakdown</a></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="A page that displays Dewey Decimal codes for {{ library_name }}">
+<meta name="keywords" content="Books, Library">
+<meta name="revised" content="2026-07-13">
+<meta name="author" content="Knarkoffer">
+<meta name="robots" content="noindex">
+<meta name="robots" content="nofollow">
+<title>{{ library_name }} DDC Codes</title>
+
+
+<link rel="stylesheet" href="/static/styles/uikit.min.css" type="text/css">
+<link rel="stylesheet" href="/static/styles/uikit-rtl.min.css" type="text/css">
+
+<script type="text/javascript" src="/static/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="/static/scripts/uikit.min.js" ></script>
+<script type="text/javascript" src="/static/scripts/uikit-icons.min.js" ></script>
+
+</head>
+
+<body>
+{% include 'menu.html' %}
+
+
+<div class="uk-margin-small-left">
+
+<h2>DDC (Dewey Decimal Classification) Codes</h2>
+<a href="/ddc_codes"><span class="uk-icon uk-icon-image" style="background-image: url(/static/images/gb.png);"></span></a>
+<a href="/ddc_codes?language=sv"><span class="uk-icon uk-icon-image" style="background-image: url(/static/images/se.png);"></span></a>
+
+<h2>Main categories</h2><br>
+{% for key, value in dewey_data.items() %}
+    {% if key.endswith('00') %}
+        <a href="#{{key}}">{{key}} - {{value[ddc_lang]}}</a><br>
+    {% endif %}
+{% endfor %}
+
+<h2>Subcategories</h2><br>
+{% for key, value in dewey_data.items() %}
+    <!--Headings or not-->
+    {% if key.endswith('00') %}
+        <h3><a name="{{key}}" href="/?ddc={{key}}">{{key}} - {{value[ddc_lang]}}</a></h3>
+    {% else %}
+        <!--<h2>{{key}} - {{value[ddc_lang]}}</h2>-->
+        {% if value[ddc_lang] not in ('[Unassigned]','(Optional number)','[Vakant]','(Alternativt nummer)') %}
+            <a name="{{key}}" href="/?ddc={{key}}">{{key}} - {{value[ddc_lang]}}</a><br>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+<a href="#" uk-totop uk-scroll>TOP</a>
+</div>>
+</body>
+</html>

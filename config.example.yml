@@ -1,0 +1,10 @@
+general:
+    library_name: My Library
+    library_path: /path/to/library
+    database_name: Library.db
+web:
+    ip: 127.0.0.1
+    port: 5149
+    debug_mode: false
+    ssl_cert: /path/to/cert.pem
+    ssl_key: /path/to/key.pem

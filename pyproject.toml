@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "library-website-from-db"
+version = "0.1.0"
+description = "Flask-application for browsing and maintaining a personal library catalog."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "Flask==3.1.1",
+    "PyYAML==6.0.2",
+    "isbnlib==3.10.14",
+    "pymarc==5.3.1",
+    "requests==2.32.4",
+]
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+]
+
+[project.scripts]
+library-website = "library_web:main"
+
+[tool.setuptools]
+py-modules = ["library_web"]
+packages = ["library_website"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

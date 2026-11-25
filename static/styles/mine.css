@@ -1,0 +1,64 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+root
+{
+	display: block;
+}
+
+th.sortable
+{
+	color: #666;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+th.sortable:hover
+{
+	color: black;
+}
+
+th.sorted-asc, th.sorted-desc {
+	color: black;
+	background-color: grey;
+}
+
+th_hidden
+{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+th_visible
+{
+	display: normal !important;
+	visibility: visible !important;
+}
+
+html {
+    visibility:hidden;
+}
+
+
+.divHidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.divVisible {
+	display: normal !important;
+	visibility: visible !important;
+}
