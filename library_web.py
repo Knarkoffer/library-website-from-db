@@ -23,7 +23,7 @@ from werkzeug.serving import WSGIRequestHandler
 
 from library_website.catalog import ddc_filter_type, filter_books_by_ddc
 from library_website.config import load_app_config
-from library_website.db import add_book_to_db, read_db_to_list
+from library_website.db import add_book_to_db, book_exists, read_db_to_list
 from library_website.libris import (
     download_marc_object,
     isbn_to_librisid,
@@ -230,16 +230,16 @@ def add_book() -> Any:
     libris_id = None
     libris_id_found = False
     is_duplicate = False
-    _, books = refresh_library_cache_if_needed()
 
     textbox_isbn = (request.form.get("tbx_isbn") or "").strip()
     textbox_librisid = (request.form.get("tbx_librisid") or "").strip()
+    submitted_isbn = isbnlib.canonical(textbox_isbn)
 
     if textbox_isbn:
         print(f"Will now check if {textbox_isbn} is already in lib...")
-        if any(book.get("ISBN", None) == textbox_isbn for book in books):
+        if book_exists(LIBRARY_DATABASE_PATH, isbn=submitted_isbn):
             is_duplicate = True
-            toggle_info_box("ERROR", True, f"ISBN {textbox_isbn} already in DB")
+            toggle_info_box("ERROR", True, f"ISBN {submitted_isbn} already in DB")
 
     debug_print(f"Dupe status 1 (ISBN): {is_duplicate}")
 
@@ -247,7 +247,9 @@ def add_book() -> Any:
         debug_print("add by isbn")
         if validate_isbn(textbox_isbn):
             if isbnlib.info(textbox_isbn) == "Sweden":
-                libris_id_found, libris_id = isbn_to_librisid(textbox_isbn, debug_print)
+                libris_id_found, libris_id = isbn_to_librisid(
+                    submitted_isbn, debug_print
+                )
             else:
                 print(f"Country is {isbnlib.info(textbox_isbn)}, unsupported for now")
                 toggle_info_box(
@@ -267,12 +269,12 @@ def add_book() -> Any:
         else:
             print("Not fitting parameters of a valid Libris ID")
 
-        if any(book.get("IDLibris", None) == libris_id for book in books):
-            is_duplicate = True
-            toggle_info_box("ERROR", True, f"LibrisID <b>{libris_id}</b> already in DB")
-
     else:
         print("Nothing in either field :-(")
+
+    if libris_id_found and book_exists(LIBRARY_DATABASE_PATH, libris_id=libris_id):
+        is_duplicate = True
+        toggle_info_box("ERROR", True, f"LibrisID <b>{libris_id}</b> already in DB")
 
     if libris_id_found and not is_duplicate:
         print("Fetching corresponding MARC file")
@@ -286,13 +288,17 @@ def add_book() -> Any:
                 book = interpret_marc(book_marc_object, debug_print)
                 book["IDLibris"] = libris_id
                 book["Language"] = "Swedish"
+                if submitted_isbn:
+                    book.setdefault("ISBN", submitted_isbn)
 
             except IndexError:
                 print("Problems reading MARC-file...")
                 book = None
 
             if book:
-                if add_book_to_db(LIBRARY_DATABASE_PATH, book):
+                if add_book_to_db(
+                    LIBRARY_DATABASE_PATH, book, submitted_isbn=submitted_isbn
+                ):
                     db_readtime = None
                     print("Added successful, updating session info...")
 
@@ -300,6 +306,12 @@ def add_book() -> Any:
                         box_type="SUCCESS",
                         box_visible=True,
                         box_message=f"<i>{book['Title']}</i> added to database!",
+                    )
+                else:
+                    toggle_info_box(
+                        "ERROR",
+                        True,
+                        "A book with this ISBN or Libris ID is already in DB",
                     )
         else:
             print(f"Download failed for LibrisID {libris_id}")

@@ -1,7 +1,10 @@
 import re
 import sqlite3
 import time
+from contextlib import closing
 from typing import Any
+
+import isbnlib
 
 CULLED_NOTES_PATTERN = re.compile(
     r"(Utgallrad|Culled) [0-9]{4}-[0-9]{2}-[0-9]{2}", re.IGNORECASE
@@ -41,9 +44,41 @@ def read_db_to_list(database_path: str) -> tuple[list[str], list[dict[str, Any]]
     return field_names, booklist
 
 
-def add_book_to_db(database_path: str, book_item: dict[str, Any]) -> bool:
+def _book_exists(
+    connection: sqlite3.Connection, libris_id: str | None, *isbns: str | None
+) -> bool:
+    """Match active records, including ISBNs stored in older display formats."""
+    isbn_keys = {isbnlib.to_isbn13(isbn) for isbn in isbns if isbn}
+    isbn_keys.discard("")
+    connection.create_function("is_culled", 1, is_culled_book)
+    connection.create_function(
+        "matches_isbn", 1, lambda value: isbnlib.to_isbn13(str(value)) in isbn_keys
+    )
+    row = connection.execute(
+        """
+        SELECT 1 FROM library
+        WHERE (IDLibris = ? OR (? AND matches_isbn(ISBN)))
+          AND NOT is_culled(Notes)
+        LIMIT 1
+        """,
+        (libris_id, bool(isbn_keys)),
+    ).fetchone()
+    return row is not None
+
+
+def book_exists(
+    database_path: str, *, isbn: str | None = None, libris_id: str | None = None
+) -> bool:
+    """Check a known identifier before making a Libris request."""
+    with closing(sqlite3.connect(database_path)) as connection:
+        return _book_exists(connection, libris_id, isbn)
+
+
+def add_book_to_db(
+    database_path: str, book_item: dict[str, Any], *, submitted_isbn: str | None = None
+) -> bool:
     """
-    Insert one parsed book record into the SQLite library table.
+    Insert one parsed book record and return False for an existing active book.
 
     The insert is retried when SQLite reports the database is locked, matching
     the existing workflow where the database may be open in another tool.
@@ -52,7 +87,16 @@ def add_book_to_db(database_path: str, book_item: dict[str, Any]) -> bool:
 
     while not data_written:
         try:
-            with sqlite3.connect(database_path) as conn:
+            with closing(sqlite3.connect(database_path)) as conn, conn:
+                # Reserve the write before checking so competing imports serialize.
+                conn.execute("BEGIN IMMEDIATE")
+                if _book_exists(
+                    conn,
+                    book_item.get("IDLibris"),
+                    book_item.get("ISBN"),
+                    submitted_isbn,
+                ):
+                    return False
                 cur = conn.cursor()
 
                 columns = ", ".join(book_item.keys())

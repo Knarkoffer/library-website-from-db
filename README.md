@@ -77,6 +77,8 @@ The code expects a `library` table with columns used by the templates and import
 
 When adding a book, the app currently supports Swedish ISBNs through Libris lookup. Other ISBN countries are detected but not imported automatically.
 
+Adding a book checks the active catalog for a matching ISBN or Libris ID. Hyphenated ISBNs and equivalent ISBN-10 and ISBN-13 forms match the same edition. You can add a replacement copy when the earlier copy is marked as culled.
+
 ## License
 
 MIT
