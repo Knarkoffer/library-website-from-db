@@ -95,6 +95,25 @@ class AddBookTests(unittest.TestCase):
                 connection.execute("SELECT COUNT(*) FROM library").fetchone()[0], 1
             )
 
+    @patch("library_website.libris.libris_isbn_search")
+    def test_isbn_form_adds_only_the_record_with_matching_isbn_metadata(self, search):
+        search.return_value = {
+            "xsearch": {
+                "records": 2,
+                "list": [
+                    {"identifier": "/other"},
+                    {"identifier": "/matched", "isbn": ISBN},
+                ],
+            }
+        }
+        self.cache_record("matched", ISBN)
+        self.assertIn("added to database", self.submit(tbx_isbn=ISBN))
+        with sqlite3.connect(self.db) as connection:
+            self.assertEqual(
+                connection.execute("SELECT IDLibris FROM library").fetchall(),
+                [("matched",)],
+            )
+
     @patch("library_website.libris.requests.get")
     def test_libris_form_checks_marc_isbn_and_allows_replacing_culled_book(self, get):
         with sqlite3.connect(self.db) as connection:

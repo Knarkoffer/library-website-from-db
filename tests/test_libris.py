@@ -31,6 +31,21 @@ MARC_XML = b"""<?xml version="1.0" encoding="utf-8"?>
 
 
 class LibrisTests(unittest.TestCase):
+    @patch("library_website.libris.libris_isbn_search")
+    def test_disambiguates_only_when_exactly_one_record_lists_the_isbn(self, search):
+        isbn = "9780306406157"
+        matching = {"identifier": "/a", "isbn": ["9780306406164", "0-306-40615-2"]}
+        other = {"identifier": "/b", "isbn": "9780306406164"}
+        for records, rows, expected in [
+            (2, [matching, other], (True, "a")),
+            (2, [matching, {"identifier": "/b", "isbn": isbn}], (False, None)),
+            (2, [other, {"identifier": "/c"}], (False, None)),
+            (3, [matching, other], (False, None)),
+        ]:
+            with self.subTest(records=records, rows=rows):
+                search.return_value = {"xsearch": {"records": records, "list": rows}}
+                self.assertEqual(isbn_to_librisid(isbn), expected)
+
     @patch("library_website.libris.requests.get")
     def test_isbn_lookup_downloads_and_parses_a_legacy_record(self, get: Mock) -> None:
         get.side_effect = [

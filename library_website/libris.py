@@ -70,19 +70,37 @@ def isbn_to_librisid(
     isbn: str, debug: Callable[[str], None] = lambda _: None
 ) -> tuple[bool, str | None]:
     """
-    Resolve an ISBN to one Libris identifier when Libris has exactly one match.
+    Resolve an ISBN to an identifier, or return (False, None).
 
-    Returns a (found, libris_id) tuple. Multiple or zero matches are treated as
-    unresolved because adding the wrong record would be worse than adding none.
+    For multiple records, require that exactly one lists the submitted ISBN.
     """
     search_results = libris_isbn_search(isbn, debug)
     if not search_results:
         print("No matches for ISBN")
         return False, None
 
-    records = search_results.get("xsearch", {}).get("records")
-    if records == 1:
-        libris_id = search_results["xsearch"]["list"][0]["identifier"].split("/")[-1]
+    source = search_results.get("xsearch", {})
+    records = source.get("records")
+    matches = source.get("list", [])
+    if records != len(matches):
+        # An ISBN may also be listed on a record outside this page.
+        matches = []
+    elif records > 1:
+        isbn_code = isbnlib.to_isbn13(isbn)
+        exact_matches = []
+        for record in matches:
+            values = record.get("isbn")
+            if not isinstance(values, list):
+                values = [values]
+            if isbn_code and any(
+                isinstance(value, str) and isbnlib.to_isbn13(value) == isbn_code
+                for value in values
+            ):
+                exact_matches.append(record)
+        matches = exact_matches
+
+    if len(matches) == 1 and matches[0].get("identifier"):
+        libris_id = matches[0]["identifier"].split("/")[-1]
         print(f"Found matching Libris entry ({libris_id}) for isbn {isbn}")
         return True, libris_id
 
