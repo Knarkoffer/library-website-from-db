@@ -1,97 +1,47 @@
-$(document).ready(function(){
-  // Filter-box
-  $("#filterBox").on("keyup", function() {
-    var search_string = $(this).val().toLowerCase()
-    if (search_string.length > 2) {
-        console.log("Activating filter...")
-        iterate_books(search_string)
-    } else if (search_string.length == 0){
-        if (on_mobile){
-            hide_all_rows()
-        } else {
-            iterate_books(search_string)
-        }
+const search = document.querySelector("#filterBox");
+const body = document.querySelector("#library_table");
+const rows = Array.from(body.rows);
+const counter = document.querySelector("#book_counter");
+const empty = document.querySelector("#empty");
 
-    }
+function filterBooks() {
+  const term = search.value.trim().toLowerCase();
+  let count = 0;
+  for (const row of rows) {
+    row.hidden = !row.textContent.toLowerCase().includes(term);
+    if (!row.hidden) count++;
+  }
+  counter.textContent = count + (count === 1 ? " book" : " books");
+  empty.hidden = count > 0;
+}
+search.addEventListener("input", filterBooks);
+filterBooks();
+
+const headers = document.querySelectorAll("th");
+const collator = new Intl.Collator("sv", { numeric: true, sensitivity: "base" });
+headers.forEach((header, index) => {
+  header.querySelector("button").addEventListener("click", () => {
+    const descending = header.getAttribute("aria-sort") === "ascending";
+    headers.forEach(other => other.removeAttribute("aria-sort"));
+    header.setAttribute("aria-sort", descending ? "descending" : "ascending");
+    const sorted = rows.map(row => ({ row, key: row.cells[index].textContent }));
+    sorted.sort((a, b) => collator.compare(a.key, b.key) * (descending ? -1 : 1));
+    const fragment = document.createDocumentFragment();
+    sorted.forEach(({ row }) => fragment.append(row));
+    body.append(fragment);
   });
-  
-  //Filters
-	$('th').each(function (column) {
-		$(this).addClass('sortable').click(function () {
-				var findSortKey = function ($cell) {
-					return $cell.find('.sort-key').text().toUpperCase()+ ' ' + $cell.text().toUpperCase();
-
-				};
-				var sortDirection = $(this).is('.sorted-asc') ? -1 : 1;
-				var $rows = $(this).parent().parent().parent().find('tbody tr').get();
-				var bob = 0;
-				//loop through all the rows and find
-				$.each($rows, function (index, row) {
-					row.sortKey = findSortKey($(row).children('td').eq(column));
-				});
-
-				//compare and sort the rows alphabetically or numerically
-				$rows.sort(function (a, b) {                       
-					if (a.sortKey.indexOf('-') == -1 && (!isNaN(a.sortKey) && !isNaN(a.sortKey))) {
-						 //Rough Numeracy check                          
-							
-							if (parseInt(a.sortKey) < parseInt(b.sortKey)) {
-								return -sortDirection;
-							}
-							if (parseInt(a.sortKey) > parseInt(b.sortKey)) {                                
-								return sortDirection;
-							}
-
-					} else {
-						if (a.sortKey < b.sortKey) {
-							return -sortDirection;
-						}
-						if (a.sortKey > b.sortKey) {
-							return sortDirection;
-						}
-					}
-					return 0;
-				});
-
-				//add the rows in the correct order to the bottom of the table
-				$.each($rows, function (index, row) {
-					$('tbody').append(row);
-					row.sortKey = null;
-				});
-
-				//identify the column sort order
-				$('th').removeClass('sorted-asc sorted-desc');
-				var $sortHead = $('th').filter(':nth-child(' + (column + 1) + ')');
-				sortDirection == 1 ? $sortHead.addClass('sorted-asc') : $sortHead.addClass('sorted-desc');
-
-				//identify the column to be sorted by
-				$('td').removeClass('sorted').filter(':nth-child(' + (column + 1) + ')').addClass('sorted');
-			});
-		});
 });
 
-function iterate_books(search_string)
-{
-    var filtered_books = 0
-    console.log("Searching for " + search_string);
-    $( ".item" ).each(function(index) {
-        if ($(this).text().toLowerCase().indexOf(search_string) > -1){
-            //console.log("Match: " + $(this).text())
-            $(this).show()
-            filtered_books = filtered_books + 1
-        } else {
-            $(this).hide()
-        }
-    });
-    $("#book_counter").text(filtered_books + " books")
-    //
-
+const form = document.querySelector("#add_book");
+function updateAddButton() {
+  form.querySelector("button").disabled =
+    !form.elements.tbx_isbn.value.trim() && !form.elements.tbx_librisid.value.trim();
 }
+form.addEventListener("input", updateAddButton);
+updateAddButton();
 
-function hide_all_rows()
-{
-    console.log("Hiding all book rows");
-    $( ".item" ).each(function(index) {
-        $(this).hide()
-    });
+const notice = document.querySelector("#info_box");
+if (notice) {
+  fetch("/mute_notification", { method: "POST", redirect: "manual" });
+  setTimeout(() => { notice.hidden = true; }, 5000);
 }

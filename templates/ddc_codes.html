@@ -1,57 +1,29 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="A page that displays Dewey Decimal codes for {{ library_name }}">
-<meta name="keywords" content="Books, Library">
-<meta name="revised" content="2026-07-13">
-<meta name="author" content="Knarkoffer">
-<meta name="robots" content="noindex">
-<meta name="robots" content="nofollow">
-<title>{{ library_name }} DDC Codes</title>
-
-
-<link rel="stylesheet" href="/static/styles/uikit.min.css" type="text/css">
-
-<script type="text/javascript" src="/static/scripts/jquery.min.js"></script>
-<script type="text/javascript" src="/static/scripts/uikit.min.js" ></script>
-<script type="text/javascript" src="/static/scripts/uikit-icons.min.js" ></script>
-
-</head>
-
-<body>
-{% include 'menu.html' %}
-
-
-<div class="uk-margin-small-left">
-
-<h2>DDC (Dewey Decimal Classification) Codes</h2>
-<a href="/ddc_codes"><span class="uk-icon uk-icon-image" style="background-image: url(/static/images/gb.png);"></span></a>
-<a href="/ddc_codes?language=sv"><span class="uk-icon uk-icon-image" style="background-image: url(/static/images/se.png);"></span></a>
-
-<h2>Main categories</h2><br>
-{% for key, value in dewey_data.items() %}
-    {% if key.endswith('00') %}
-        <a href="#{{key}}">{{key}} - {{value[ddc_lang]}}</a><br>
-    {% endif %}
-{% endfor %}
-
-<h2>Subcategories</h2><br>
-{% for key, value in dewey_data.items() %}
-    <!--Headings or not-->
-    {% if key.endswith('00') %}
-        <h3><a name="{{key}}" href="/?ddc={{key}}">{{key}} - {{value[ddc_lang]}}</a></h3>
-    {% else %}
-        <!--<h2>{{key}} - {{value[ddc_lang]}}</h2>-->
-        {% if value[ddc_lang] not in ('[Unassigned]','(Optional number)','[Vakant]','(Alternativt nummer)') %}
-            <a name="{{key}}" href="/?ddc={{key}}">{{key}} - {{value[ddc_lang]}}</a><br>
-        {% endif %}
-    {% endif %}
-{% endfor %}
-
-<a href="#" uk-totop uk-scroll>TOP</a>
-</div>>
-</body>
-</html>
+{% extends 'report.html' %}
+{% block title %}DDC Breakdown{% endblock %}
+{% block controls %}
+  <div class="languages" aria-label="Classification language">
+    {% for lang, label, flag in [('en', 'English', 'gb'), ('sv', 'Svenska', 'se')] %}
+    <a lang="{{ lang }}" href="{{ url_for('ddc_codes', language=lang) }}"{% if lang == ddc_lang %} aria-current="page"{% endif %}>
+      <img alt="" src="{{ url_for('static', filename='images/' ~ flag ~ '.png') }}">{{ label }}
+    </a>
+    {% endfor %}
+  </div>
+{% endblock %}
+{% block content %}
+  <h2>Main categories</h2>
+  <ul class="ddc-index" lang="{{ ddc_lang }}">
+    {% for code, labels in dewey_data.items() if code.endswith('00') %}
+    <li><a href="#{{ code }}"><span class="code">{{ code }}</span>{{ labels[ddc_lang] }}</a></li>
+    {% endfor %}
+  </ul>
+  {% for code, labels in dewey_data.items() if code.endswith('00') %}
+    <section class="ddc-section" lang="{{ ddc_lang }}" id="{{ code }}">
+      <h2><a href="{{ url_for('render_library', ddc=code) }}"><span class="code">{{ code }}</span> {{ labels[ddc_lang] }}</a></h2>
+      <ul class="ddc-list">
+        {% for number, labels in dewey_data.items() if number.startswith(code[0]) and number != code and labels[ddc_lang] not in ('[Unassigned]', '(Optional number)', '[Vakant]', '(Alternativt nummer)') %}
+        <li id="{{ number }}"><a href="{{ url_for('render_library', ddc=number) }}"><span class="code">{{ number }}</span>{{ labels[ddc_lang] }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+{% endblock %}

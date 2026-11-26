@@ -1,264 +1,58 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="A page that displays the statistics for {{ library_name }}">
-<meta name="keywords" content="Books, Library Statistics">
-<meta name="revised" content="2026-07-13">
-<meta name="author" content="Knarkoffer">
-<meta name="robots" content="noindex">
-<meta name="robots" content="nofollow">
-<title>{{ library_name }} Statistics</title>
-
-<link rel="stylesheet" href="/static/styles/uikit.min.css" type="text/css">
-
-<script type="text/javascript" src="/static/scripts/jquery.min.js"></script>
-<!-- Styles -->
-<style>
-#chart_languages {
-    width: 50%;
-    height: 250px;
-}
-
-#chart_ddcmaster {
-    width: 50%;
-    height: 500px;
-}
-
-</style>
-
-<!-- Resources -->
-<script src="https://www.amcharts.com/lib/4/core.js"></script>
-<script src="https://www.amcharts.com/lib/4/charts.js"></script>
-<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-
-<!-- UIKit -->
-<link rel="stylesheet" href="/static/styles/uikit.min.css" type="text/css">
-<script type="text/javascript" src="/static/scripts/uikit.min.js" ></script>
-<script type="text/javascript" src="/static/scripts/uikit-icons.min.js"></script>
-
-<!-- Chart code -->
-<script>
-am4core.ready(function() {
-
-    // Themes begin
-    am4core.useTheme(am4themes_animated);
-    // Themes end
-
-
-    /*
-    Pie Chart - Languages
-    */
-
-    // Create chart instance
-    var chart_languages = am4core.create("chart_languages", am4charts.PieChart);
-
-    // Add data
-    chart_languages.data = {{library_statistics['Languages']|safe}};
-
-    // Add and configure Series
-    var pieLanguage= chart_languages.series.push(new am4charts.PieSeries());
-    pieLanguage.dataFields.value = "count";
-    pieLanguage.dataFields.category = "language";
-    pieLanguage.slices.template.stroke = am4core.color("#fff");
-    pieLanguage.slices.template.strokeWidth = 2;
-    pieLanguage.slices.template.strokeOpacity = 1;
-
-    // Enable and disable various details of graph
-    //pieLanguage.slices.template.tooltipText = ""; // Mouse-over text when hovering over slides
-    //pieLanguage.labels.template.disabled = true; // Labels
-    pieLanguage.ticks.template.disabled = true; // Lines between labels and their corresponding slice
-
-    // This creates initial animation
-    pieLanguage.hiddenState.properties.opacity = 1;
-    pieLanguage.hiddenState.properties.endAngle = -90;
-    pieLanguage.hiddenState.properties.startAngle = -90;
-
-    // Disables hover function
-    var hs = pieLanguage.slices.template.states.getKey("hover");
-    hs.properties.scale = 1;
-
-    // Disables slide out function
-    var as = pieLanguage.slices.template.states.getKey("active");
-    as.properties.shiftRadius = 0;
-
-    // Configuration of the ledger
-    pieLanguage.legendSettings.valueText = "{count}";
-    chart_languages.legend = new am4charts.Legend();
-    chart_languages.legend.position = "right";
-    chart_languages.legend.contentAlign = "right";
-
-     /*
-    Pie Chart - DDC Master
-    */
-
-    // Create chart instance
-    var chart_ddcmaster = am4core.create("chart_ddcmaster", am4charts.PieChart);
-
-    // Add data
-    chart_ddcmaster.data = {{library_statistics['DDCMaster']|safe}};
-
-    // Add and configure Series
-    var pieDDCMaster= chart_ddcmaster.series.push(new am4charts.PieSeries());
-    pieDDCMaster.dataFields.value = "count";
-    pieDDCMaster.dataFields.category = "DDCMaster";
-    pieDDCMaster.slices.template.stroke = am4core.color("#fff");
-    pieDDCMaster.slices.template.strokeWidth = 2;
-    pieDDCMaster.slices.template.strokeOpacity = 1;
-
-    // Enable and disable various details of graph
-    //pieDDCMaster.slices.template.tooltipText = ""; // Mouse-over text when hovering over slides
-    //pieDDCMaster.labels.template.disabled = true; // Labels
-    pieDDCMaster.ticks.template.disabled = true; // Lines between labels and their corresponding slice
-
-    // This creates initial animation
-    pieDDCMaster.hiddenState.properties.opacity = 1;
-    pieDDCMaster.hiddenState.properties.endAngle = -90;
-    pieDDCMaster.hiddenState.properties.startAngle = -90;
-
-    // Disables hover function
-    var hs = pieDDCMaster.slices.template.states.getKey("hover");
-    hs.properties.scale = 1;
-
-    // Disables slide out function
-    var as = pieDDCMaster.slices.template.states.getKey("active");
-    as.properties.shiftRadius = 0;
-
-    // Configuration of the ledger
-    pieDDCMaster.legendSettings.valueText = "{count}";
-    chart_ddcmaster.legend = new am4charts.Legend();
-    chart_ddcmaster.legend.position = "right";
-    chart_ddcmaster.legend.contentAlign = "right";
-
-
-    /*
-    Pie Chart - YearIn
-    */
-
-    // Create chart instance
-    var chart_yearin = am4core.create("chart_yearin", am4charts.PieChart);
-
-    // Add data
-    chart_yearin.data = {{library_statistics['YearIn']|safe}};
-
-    // Add and configure Series
-    var pieYearIn = chart_yearin.series.push(new am4charts.PieSeries());
-    pieYearIn.dataFields.value = "count";
-    pieYearIn.dataFields.category = "year";
-    pieYearIn.slices.template.stroke = am4core.color("#fff");
-    pieYearIn.slices.template.strokeWidth = 2;
-    pieYearIn.slices.template.strokeOpacity = 1;
-    //pieYearIn.slices.template.tooltipText = "{year}: {count}";
-
-    // Enable and disable various details of graph
-    //pieYearIn.slices.template.tooltipText = ""; // Mouse-over text when hovering over slides
-    //pieYearIn.labels.template.disabled = true; // Labels
-    pieYearIn.ticks.template.disabled = true; // Lines between labels and their corresponding slice
-    pieYearIn.labels.template.text = "{year}: {count}"; // Modifies the text in the labels
-
-    // This creates initial animation
-    pieYearIn.hiddenState.properties.opacity = 1;
-    pieYearIn.hiddenState.properties.endAngle = -90;
-    pieYearIn.hiddenState.properties.startAngle = -90;
-
-    // Disables hover function
-    var hs = pieYearIn.slices.template.states.getKey("hover");
-    hs.properties.scale = 1;
-
-    // Disables slide out function
-    var as = pieYearIn.slices.template.states.getKey("active");
-    as.properties.shiftRadius = 0;
-
-    // Configuration of the ledger
-    pieYearIn.legendSettings.valueText = "{count}";
-    chart_yearin.legend = new am4charts.Legend();
-    chart_yearin.legend.position = "right";
-    chart_yearin.legend.contentAlign = "right";
-
-
-});
-
-
-$(document).ready(function(){
-    $("title").each(function() {
-        if ($(this).text() == "Chart created using amCharts library"){
-            console.log("Hiding annoying amChart logo/link");
-            $(this).parent().hide();
-        }
-    });
-});
-</script>
-
-
-</head>
-
-<body>
-{% include 'menu.html' %}
-<center>
-
-
-<h1 class="uk-heading-large uk-text-center uk-text-nowrap">Library Statistics</h1>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Languages</h3>
-<div id="chart_languages"></div>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">DDC Master Categories</h3>
-<div id="chart_ddcmaster"></div>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Purchase year</h3>
-<div id="chart_yearin"></div>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Top {{library_statistics['Top Authors']|length}} - Authors</h3>
-<table>
-    <thead>
-        <tr>
-            <th>Author</th>
-            <th>Count</th>
-        </tr>
-    </thead>
-    <tbody>
-    {% for author in library_statistics['Top Authors'] %}
-        <tr>
-            <td>{{author['Author']}}</td>
-            <td>{{author['Count']}}</td>
-        </tr>
+{% extends 'report.html' %}
+{% block title %}Library statistics{% endblock %}
+{% block content %}
+  <dl class="totals">
+    <div><dt>Estimated words</dt><dd>{{ library_statistics['Words'] }}</dd></div>
+    <div><dt>Estimated leasure time</dt><dd>{{ library_statistics['ReadtimeCalculated'] or (library_statistics['ReadtimeHours'] ~ ' hours') }}</dd>
+      <small>At 300 words per minute, eight hours a day.</small></div>
+  </dl>
+  {% set palette = ['#285741', '#b97647', '#879958', '#557584', '#cead61', '#916470',
+                    '#abc2ad', '#716145', '#a39bae', '#648c80', '#dfad91', '#a69c69'] %}
+  <div class="distributions">
+    {% for heading, series, field in [('Languages', 'Languages', 'language'), ('DDC master categories', 'DDCMaster', 'DDCMaster'), ('Purchase year', 'YearIn', 'year')] %}
+    <section>
+      <h2>{{ heading }}</h2>
+      {% set data = library_statistics[series] %}
+      {% if data %}
+      <div class="pie-layout">
+        <div class="pie">
+          <svg viewBox="-1.05 -1.05 2.1 2.1" aria-label="{{ heading }}" role="group"></svg>
+          <span class="pie-tooltip" hidden></span>
+        </div>
+        <ul class="pie-legend" aria-label="{{ heading }}, in books">
+          {% for item in data %}
+          <li data-label="{{ item[field] }}" data-count="{{ item['count'] }}">
+            <span class="swatch" aria-hidden="true" style="background-color: {{ palette[loop.index0 % palette|length] }}"></span>
+            {% if series == 'DDCMaster' %}<a class="code" href="{{ url_for('render_library', ddc=item[field]) }}">{{ item[field] }}</a>
+            {% else %}<span>{{ item[field] }}</span>{% endif %}
+            <span class="quantity">{{ item['count'] }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% else %}<p>No data recorded.</p>{% endif %}
+    </section>
     {% endfor %}
-    </tbody>
-</table>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Top {{library_statistics['Prices']|length}} - Expensive books</h3>
-<table>
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Price (SEK)</th>
-        </tr>
-    </thead>
-    <tbody>
-    {% for book in library_statistics['Prices'] %}
-        <tr>
-            <td>{{book['Title'][:120]}}</td>
-            <td>{{book['Price']}}</td>
-        </tr>
+  </div>
+  <div class="rankings">
+    {% for heading, series, label, field, measure, value in [
+      ('Most frequent authors', 'Top Authors', 'Author', 'Author', 'Books', 'Count'),
+      ('Most expensive books', 'Prices', 'Title', 'Title', 'Price (SEK)', 'Price')] %}
+    <section>
+      <h2>{{ heading }}</h2>
+      {% if library_statistics[series] %}
+      <table aria-label="{{ heading }}">
+        <thead><tr><th scope="col">{{ label }}</th><th scope="col">{{ measure }}</th></tr></thead>
+        <tbody>{% for item in library_statistics[series] %}
+          <tr><td>{{ item[field] }}</td><td>{{ item[value] }}</td></tr>
+        {% endfor %}</tbody>
+      </table>
+      {% else %}<p>No data recorded.</p>{% endif %}
+    </section>
     {% endfor %}
-    </tbody>
-</table>
-<br>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Sum of all purchased books</h3>
-{{library_statistics['Paid']}} SEK<br>
-<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Wordcount</h3>
-~{{library_statistics['Words']}} words<br>
-<h3 class="uk-heading-small uk-text-center uk-text-nowrap">Entertainment time</h3>
-Estimating an eight hours of reading per day, and at the rate of 300 WPM,<br>
-<!--{{library_statistics['ReadtimeHours']}} hours<br>-->
-you have reading material for:<br>
-{{library_statistics['ReadtimeCalculated']}}
-<br>
-<br>
-</center>
-</body>
-</html>
+  </div>
+  <dl class="totals">
+    <div><dt>Total spent</dt><dd>{{ library_statistics['Paid'] }} SEK</dd></div>
+  </dl>
+  <script defer src="{{ url_for('static', filename='statistics.js') }}"></script>
+{% endblock %}

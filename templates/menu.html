@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<div class="uk-margin-small-left">
-    <ul class="uk-subnav" uk-margin>
-        <li class="{% if request.endpoint == 'render_library' %} uk-active {% endif %}"><a href="/">Library</a></li>
-        <li class="{% if request.url.split('/')[-1] == 'statistics' %} uk-active {% endif %}"><a href="/statistics">Statistics</a></li>
-        <li class="{% if request.url.split('/')[-1] == 'ddc_codes' %} uk-active {% endif %}"><a href="/ddc_codes">DDC Breakdown</a></li>
-    </ul>
-</div>
-</body>
-</html>
+<nav class="uk-margin-small-left" aria-label="Main navigation">
+  <ul class="uk-subnav" uk-margin>
+    {% for endpoint, label in [('render_library', 'Library'), ('render_statistics', 'Statistics'), ('ddc_codes', 'DDC Breakdown')] %}
+    <li{% if request.endpoint == endpoint %} class="uk-active"{% endif %}>
+      <a href="{{ url_for(endpoint) }}"{% if request.endpoint == endpoint %} aria-current="page"{% endif %}>{{ label }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

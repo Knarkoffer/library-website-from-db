@@ -36,7 +36,7 @@ def get_display_time(days: int) -> str:
     return ", ".join(result)
 
 
-def get_most_common_authors(
+def get_most_frequent_authors(
     target_size: int, input_list: list[str]
 ) -> list[dict[str, Any]]:
     """
@@ -157,5 +157,5 @@ def get_library_statistics(books: list[dict[str, Any]]) -> dict[str, Any]:
         "ReadtimeHours": format_with_separators(readtime_hours),
         "ReadtimeCalculated": get_display_time(readtime_days),
         "YearIn": year_in,
-        "Top Authors": get_most_common_authors(5, all_authors),
+        "Top Authors": get_most_frequent_authors(5, all_authors),
     }
